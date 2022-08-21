@@ -18,7 +18,7 @@ const Contact = () => {
                                             Committed to <span className="text-blue-500">People</span>, and the future
                                         </h2>
                                         <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                                            We are <strong className="text-blue-500">Monst</strong>, a Creative Design{" "}
+                                            We are <strong className="text-blue-500">Perpetualtech</strong>, a Creative Design{" "}
                                             <span className="typewrite d-inline text-brand">
                                                 <TextEffect text1="Web Agency" text2="Social Marketing" />
                                             </span>
