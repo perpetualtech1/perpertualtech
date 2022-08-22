@@ -15,12 +15,9 @@ const About = () => {
                                 <div className="py-12">
                                     <div className="max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left">
                                         <h2 className="text-3xl lg:text-5xl mb-4 font-bold font-heading wow animate__animatedanimated animate__fadeIn">
-                                            Committed to <span className="text-blue-500">People</span> and the future
+                                            Get to know about us and <span className="text-blue-500">relive</span> our journey 
                                         </h2>
-                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                                            We are <strong className="text-blue-500">Perpetualtech</strong>, a Creative Design <span className="typewrite d-inline text-brand" data-period="3000" data-type='["Web Agency", "Social Marketing" ]'></span>
-                                        </p>
-                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Helping you maximize operations management with digitization</p>
+                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Get acquainted with our team and understand how we work and proceed towards sucess. </p>
                                     </div>
                                     <div className="text-center lg:text-left">
                                         <Link href="/services">
@@ -116,6 +113,7 @@ const About = () => {
                                     <span>for your business dream</span>
                                 </h2>
                             </div>
+
                         </div>
                         <div className="flex flex-wrap -mx-3 -mb-6 text-center">
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">

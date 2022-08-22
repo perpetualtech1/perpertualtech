@@ -59,10 +59,10 @@ const Index2 = () => {
                                 </h2>
                             </div>
                         </div>
-                        <div className="flex flex-wrap -mx-3 -mb-6">
+                        <div className="flex flex-wrap -mx-3 -mb-6 h-full bg-red-100">
   
-                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                                <div className="border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                            <div className="w-full md:w-1/2 lg:w-1/4 h-full px-3 mb-6">
+                                <div className="border  border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     <div className="text-blue-500 mx-auto mb-4">
                                         <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
@@ -115,7 +115,7 @@ const Index2 = () => {
                                         </svg>
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">Blockchain</h3>
-                                    <p className="text-sm text-blueGray-400">We analyze customer requirements and business objectives. Offering strategic advice on how to use technology to achieve goals. In collaboration with our in-house technical team, we manage IT initiatives.</p>
+                                    <p className="text-sm text-blueGray-400">We provide Blockchain-as-a-Service (BaaS), a business model in which third-party clouds are used to build and operate blockchain applications.</p>
                                 </div>
                             </div>
 
@@ -127,7 +127,7 @@ const Index2 = () => {
                                         </svg>
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">Ui/Ux Development</h3>
-                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                    <p className="text-sm text-blueGray-400">With our years of application design experience, we provide you with specially-crafted UI UX design services that can give your app and idea the edge that it needs.</p>
                                 </div>
                             </div>
 
@@ -139,7 +139,7 @@ const Index2 = () => {
                                         </svg>
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">Domain Services</h3>
-                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                    <p className="text-sm text-blueGray-400">We provide domain registration, DNS management, domain theft control, and domain forwarding services.</p>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
@@ -150,11 +150,13 @@ const Index2 = () => {
                                         </svg>
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">5g Services</h3>
-                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                    <p className="text-sm text-blueGray-400">In addition to lightning-fast connectivity, we offer 5G communication services for a variety of use-cases and locations.</p>
                                 </div>
                             </div>
 
                         </div>
+
+
                     </div>
                 </section>
                 <section className="py-20" id="how-we-work">

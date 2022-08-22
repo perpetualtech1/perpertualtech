@@ -31,18 +31,13 @@ const Blog2 = () => {
                             </li>
                         </ul>
                         <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
-                            <div className="w-full lg:w-1/2 px-4 lg:pr-20 lg:pt-4 order-1 lg:order-0">
-                                <Link href="/blog">
-                                    <a>
-                                        <span className="inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600">Development</span>
-                                    </a>
-                                </Link>
-                                <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
+                            <div className="w-full lg:w-1/2 px-4 lg:pr-20 order-1 lg:order-0">
+                                <h3 className="mb-4 text-xl md:text-2xl font-bold font-heading">
                                     <Link href="#">
-                                        <a className="hover:text-blue-500"> How to Make Website WCAG Compliant?</a>
+                                        <a className="hover:text-blue-500"> WHAT COULD 5G CHANGE ABOUT THE WAY WE USE TECHNOLOGY?</a>
                                     </Link>
                                 </h3>
-                                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
+                                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">The rise of 5G networks create the potential for new ways of working as well as benefits to the daily lives of many people that they probably haven’t considered yet. We often think about devices bringing us faster and more powerful technology, but the rise of 5G really represents a new option of services that could be available to us regardless of our devices. I’d like to look at a few ways that 5G networks will change the way we work and live with technology over the next several years.</p>
 
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0 lg:order-1">
@@ -54,18 +49,13 @@ const Blog2 = () => {
                             </div>
                         </div>
                         <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
-                            <div className="w-full lg:w-1/2 px-4 lg:pl-20 lg:pt-4 order-1">
-                                <Link href="/blog-2">
-                                    <a>
-                                        <span className="inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600">Startup</span>
-                                    </a>
-                                </Link>
-                                <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
+                        <div className="w-full lg:w-1/2 px-4 lg:pr-20 order-1 lg:order-0">
+                                <h3 className="mb-4 text-xl md:text-2xl font-bold font-heading">
                                     <Link href="#">
-                                        <a className="hover:text-blue-500"> You have a Great Is Business Idea?</a>
+                                        <a className="hover:text-blue-500"> HIGH AVAILABILITY: ENSURE CONTINUOUS UPTIME FOR YOUR USERS</a>
                                     </Link>
                                 </h3>
-                                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
+                                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">A Single Point of Failure can exist at many levels in a complex system; ranging from hardware failure, loss of network from a service provider or a software failure on a server. Redundancies must be addressed at each level to ensure High Availability. Hardware redundancies are a common best practice today and are already implemented by many organizations. However, many of these same organizations have not yet implemented solutions for Application Level availability.</p>
 
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0">
@@ -77,18 +67,13 @@ const Blog2 = () => {
                             </div>
                         </div>
                         <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
-                            <div className="w-full lg:w-1/2 px-4 lg:pr-20 lg:pt-4 order-1 lg:order-0">
-                                <Link href="/blog-2">
-                                    <a>
-                                        <span className="inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600">Startup</span>
-                                    </a>
-                                </Link>
-                                <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
+                        <div className="w-full lg:w-1/2 px-4 lg:pr-20 order-1 lg:order-0">
+                                <h3 className="mb-4 text-xl md:text-2xl font-bold font-heading">
                                     <Link href="#">
-                                        <a className="hover:text-blue-500"> The Future of Enterprise API Development</a>
+                                        <a className="hover:text-blue-500"> QUARTERLY BUSINESS REVIEWS: PLANNING FOR SUCCESS</a>
                                     </Link>
                                 </h3>
-                                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
+                                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">There are lots of different attitudes people take towards technology in their businesses. Some look at technology as an expense that needs to be managed. Others are ambivalent and have both frustrations and enthusiasm depending on what kind of technology you’re talking about. There are some good reasons these attitudes exist in the first place. Most people can relate to technology projects going way over budget, or having to deal with a system that is a bottleneck getting in the way of work, or that ransomware attack that caused so much stress and anxiety.</p>
 
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0 lg:order-1">
@@ -100,18 +85,15 @@ const Blog2 = () => {
                             </div>
                         </div>
                         <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
-                            <div className="w-full lg:w-1/2 px-4 lg:pl-20 lg:pt-4 order-1">
-                                <Link href="/blog-2">
-                                    <a>
-                                        <span className="inline-block py-1 px-3 uppercase text-xs font-semibold bg-blue-50 rounded-full text-blue-600">Startup</span>
-                                    </a>
-                                </Link>
-                                <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
+                        <div className="w-full lg:w-1/2 px-4 lg:pr-20 order-1 lg:order-0">
+                                <h3 className="mb-4 text-xl md:text-2xl font-bold font-heading">
                                     <Link href="#">
-                                        <a className="hover:text-blue-500"> How To Make Your iOS 13 Compatible?</a>
+                                        <a className="hover:text-blue-500 capital"> Enhanced Blockchain-as-a-Service</a>
                                     </Link>
                                 </h3>
-                                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
+                                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">In its infancy, blockchain solutions offered encryption, immutability, and some form of distribution. As time went on, we saw new features added including advancements in tokenization, interoperability, and more recently, a surge in Decentralized Autonomous Organizations (DAOs).
+
+The next era in blockchain solutions has begun and with it comes advancements in parallel technologies such as artificial intelligence (AI), the Internet of Things (IoT), and decentralized identity solutions. Over the coming decade, these technologies will be intertwined to create enhanced blockchain solutions that will offer businesses more security for data integrity, accurate analytics, and provable truth.</p>
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0">
                                 <Link href="#">

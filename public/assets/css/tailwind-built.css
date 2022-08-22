@@ -893,6 +893,15 @@ video {
 .flex{
 	display: flex !important;
 }
+
+.grid{
+	display: grid !important;
+}
+
+.grid-cols{
+	grid: grid !important;
+}
+
 .inline-flex{
 	display: inline-flex !important;
 }
