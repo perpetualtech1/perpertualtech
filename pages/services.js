@@ -69,7 +69,7 @@ const Services = () => {
                                                 <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">2</span>
                                             </div>
                                             <div>
-                                                <h3 className="mb-2 text-xl font-semibold font-heading">React Develop</h3>
+                                                <h3 className="mb-2 text-xl font-semibold font-heading">React Development</h3>
                                                 <p className="text-blueGray-400 leading-loose text-sm">Developers save time by not having to write the same code multiple times.</p>
                                             </div>
                                         </div>
@@ -87,7 +87,7 @@ const Services = () => {
                                                 <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">4</span>
                                             </div>
                                             <div>
-                                                <h3 className="mb-2 text-xl font-semibold font-heading">CMS develop</h3>
+                                                <h3 className="mb-2 text-xl font-semibold font-heading">CMS Development</h3>
                                                 <p className="text-blueGray-400 leading-loose text-sm">CMS allows you to quickly create a mobile-friendly web application.</p>
                                             </div>
                                         </div>
