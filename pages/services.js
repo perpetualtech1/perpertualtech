@@ -239,9 +239,6 @@ const Services = () => {
                                     <span>for your business dream</span>
                                 </h2>
                             </div>
-                            <div className="w-full lg:w-1/2">
-                                <p className="text-blueGray-400 leading-loose wow animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
-                            </div>
                         </div>
                         <div className="flex flex-wrap -mx-3 -mb-6 text-center">
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
