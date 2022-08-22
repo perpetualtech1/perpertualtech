@@ -42,7 +42,7 @@ const About = () => {
                         </div>
                     </div>
                 </section>
-                <section className="pt-6 pb-2">
+                {/* <section className="pt-6 pb-2">
                     <div className="container">
                         <div className="flex flex-wrap justify-between pt-8 pb-16">
                             <div className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".2s">
@@ -104,7 +104,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="py-20 bg-blueGray-50" id="how-we-work">
                     <div className="container">
                         <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
@@ -115,9 +115,6 @@ const About = () => {
                                     <br />
                                     <span>for your business dream</span>
                                 </h2>
-                            </div>
-                            <div className="w-full lg:w-1/2">
-                                <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
                             </div>
                         </div>
                         <div className="flex flex-wrap -mx-3 -mb-6 text-center">
@@ -148,7 +145,7 @@ const About = () => {
                         </div>
                     </div>
                 </section>
-                <section className="py-20">
+                {/* <section className="py-20">
                     <div className="container text-center">
                         <div className="max-w-lg mx-auto mb-16">
                             <span className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl"> About Our Expert</span>
@@ -188,8 +185,8 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-                <section className="pb-20">
+                </section> */}
+                <section className="pb-20 pt-16">
                     <div className="container">
                         <div className="max-w-2xl mx-auto text-center">
                             <div className="max-w-md mb-8 mx-auto">

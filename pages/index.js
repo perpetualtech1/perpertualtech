@@ -58,13 +58,9 @@ const Index2 = () => {
                                     </span>
                                 </h2>
                             </div>
-                            <div className="w-full lg:w-1/2">
-                                <p className="lg:pl-16 text-blueGray-400 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".4s">
-                                    Business solution company sit our any how site used the our company any site us it-solve theme is very professional theme business & corporate, finance, advisor, solution, company and all project used, there are all kinds of websites here.
-                                </p>
-                            </div>
                         </div>
                         <div className="flex flex-wrap -mx-3 -mb-6">
+  
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     <div className="text-blue-500 mx-auto mb-4">
@@ -73,7 +69,7 @@ const Index2 = () => {
                                         </svg>
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">IT Consultancy</h3>
-                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                    <p className="text-sm text-blueGray-400">We analyze customer requirements and business objectives. Offering strategic advice on how to use technology to achieve goals. In collaboration with our in-house technical team, we manage IT initiatives.</p>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
@@ -84,7 +80,7 @@ const Index2 = () => {
                                         </svg>
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">Web Development</h3>
-                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                    <p className="text-sm text-blueGray-400">Our solutions combine design excellence with cutting-edge innovation to contribute greatly to your brand value while meeting your business needs. With everything we provide, you can gain both long-term and short-term investment gains..</p>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
@@ -95,7 +91,8 @@ const Index2 = () => {
                                         </svg>
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">App Development</h3>
-                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                    <p className="text-sm text-blueGray-400">We specialize in Custom Application Development worldwide and have a proven track record of creating, integrating, and assisting enterprise-class software products
+.</p>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
@@ -107,9 +104,56 @@ const Index2 = () => {
                                         </svg>
                                     </div>
                                     <h3 className="mb-2 font-bold font-heading">Digital Marketing</h3>
+                                    <p className="text-sm text-blueGray-400">We offer a variety of marketing services that businesses do not typically have in-house expertise for. Although we have a variety of client goals, our ultimate objective is to help you increase sales through their efforts.</p>
+                                </div>
+                            </div>
+                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                    <div className="text-blue-500 mx-auto mb-4">
+                                        <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 className="mb-2 font-bold font-heading">Blockchain</h3>
+                                    <p className="text-sm text-blueGray-400">We analyze customer requirements and business objectives. Offering strategic advice on how to use technology to achieve goals. In collaboration with our in-house technical team, we manage IT initiatives.</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                    <div className="text-blue-500 mx-auto mb-4">
+                                        <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 className="mb-2 font-bold font-heading">Ui/Ux Development</h3>
                                     <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
                                 </div>
                             </div>
+
+                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                    <div className="text-blue-500 mx-auto mb-4">
+                                        <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 className="mb-2 font-bold font-heading">Domain Services</h3>
+                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                </div>
+                            </div>
+                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                    <div className="text-blue-500 mx-auto mb-4">
+                                        <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 className="mb-2 font-bold font-heading">5g Services</h3>
+                                    <p className="text-sm text-blueGray-400">We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of success.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
@@ -139,7 +183,8 @@ const Index2 = () => {
                                         </div>
                                         <div className="px-4">
                                             <h3 className="my-4 text-xl font-semibold">Project Initialization</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p>
+                                            <p className="text-blueGray-400 leading-loose">The Initiation Phase of a project is when the Project Sponsor and Vice Chancellor/Chief Information Officer define, evaluate, and approve the project idea.
+</p>
                                         </div>
                                     </li>
                                     <li className="flex -mx-4 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
@@ -148,7 +193,7 @@ const Index2 = () => {
                                         </div>
                                         <div className="px-4">
                                             <h3 className="my-4 text-xl font-semibold">Looking for Creative</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p>
+                                            <p className="text-blueGray-400 leading-loose">We can solve problems more openly and innovatively when we are creative.</p>
                                         </div>
                                     </li>
                                     <li className="flex -mx-4 wow animate__animated animate__fadeIn" data-wow-delay=".7s">
@@ -157,7 +202,7 @@ const Index2 = () => {
                                         </div>
                                         <div className="px-4">
                                             <h3 className="my-4 text-xl font-semibold">Market Development</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p>
+                                            <p className="text-blueGray-400 leading-loose">Market development strategies help businesses grow and reach new customers in a planned, structured manner.</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -202,7 +247,7 @@ const Index2 = () => {
                                     We will be glad to hear from you
                                 </p>
                             </div>
-                            <div className="flex flex-wrap -mx-3 text-center">
+                            {/* <div className="flex flex-wrap -mx-3 text-center">
                                 <div className="w-1/2 lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated" data-wow-delay=".1s">
                                     <svg className="mb-6 h-8 w-8 mx-auto text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
@@ -234,7 +279,7 @@ const Index2 = () => {
                                         <p>Colorado(CO), 80117</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div>
                                 <form>
                                     <div className="flex flex-wrap mb-4 -mx-3 wow animate__animated animate__fadeIn animated" data-wow-delay=".3s">

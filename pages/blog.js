@@ -38,22 +38,15 @@ const Blog2 = () => {
                                     </a>
                                 </Link>
                                 <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
-                                    <Link href="/blog-single">
+                                    <Link href="#">
                                         <a className="hover:text-blue-500"> How to Make Website WCAG Compliant?</a>
                                     </Link>
                                 </h3>
                                 <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
-                                <Link href="/blog-single">
-                                    <a className="text-xs font-semibold text-blue-600">
-                                        <span>Read More</span>
-                                        <svg className="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                        </svg>
-                                    </a>
-                                </Link>
+
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0 lg:order-1">
-                                <Link href="/blog-single">
+                                <Link href="#">
                                     <a>
                                         <img className="h-80 w-full object-cover rounded" src="/assets/imgs/placeholders/img-6.png" alt="Monst" />
                                     </a>
@@ -68,22 +61,15 @@ const Blog2 = () => {
                                     </a>
                                 </Link>
                                 <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
-                                    <Link href="/blog-single">
+                                    <Link href="#">
                                         <a className="hover:text-blue-500"> You have a Great Is Business Idea?</a>
                                     </Link>
                                 </h3>
                                 <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
-                                <Link href="/blog-single">
-                                    <a className="text-xs font-semibold text-blue-600">
-                                        <span>Read More</span>
-                                        <svg className="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                        </svg>
-                                    </a>
-                                </Link>
+
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0">
-                                <Link href="/blog-single">
+                                <Link href="#">
                                     <a>
                                         <img className="h-80 w-full object-cover rounded" src="/assets/imgs/placeholders/img-7.png" alt="Monst" />
                                     </a>
@@ -98,22 +84,15 @@ const Blog2 = () => {
                                     </a>
                                 </Link>
                                 <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
-                                    <Link href="/blog-single">
+                                    <Link href="#">
                                         <a className="hover:text-blue-500"> The Future of Enterprise API Development</a>
                                     </Link>
                                 </h3>
                                 <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
-                                <Link href="/blog-single">
-                                    <a className="text-xs font-semibold text-blue-600">
-                                        <span>Read More</span>
-                                        <svg className="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                        </svg>
-                                    </a>
-                                </Link>
+
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0 lg:order-1">
-                                <Link href="/blog-single">
+                                <Link href="#">
                                     <a>
                                         <img className="h-80 w-full object-cover rounded" src="/assets/imgs/placeholders/img-8.png" alt="Monst" />
                                     </a>
@@ -128,32 +107,19 @@ const Blog2 = () => {
                                     </a>
                                 </Link>
                                 <h3 className="my-4 text-xl md:text-2xl font-bold font-heading">
-                                    <Link href="/blog-single">
+                                    <Link href="#">
                                         <a className="hover:text-blue-500"> How To Make Your iOS 13 Compatible?</a>
                                     </Link>
                                 </h3>
                                 <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">Aenean tempus orci eu est ultrices hendrerit. Fusce suscipit, leo a semper venenatis, felis urna pulvinar nibh, vitae porta erat risus sed mauris. Vestibulum vehicula leo eget libero eleifend, quis dictum eros bibendum. Maecenas convallis tempor varius.</p>
-                                <Link href="/blog-single">
-                                    <a className="text-xs font-semibold text-blue-600">
-                                        <span>Read More</span>
-                                        <svg className="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                        </svg>
-                                    </a>
-                                </Link>
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mb-8 order-0">
-                                <Link href="/blog-single">
+                                <Link href="#">
                                     <a>
                                         <img className="h-80 w-full object-cover rounded" src="/assets/imgs/placeholders/img-9.jpg" alt="Monst" />
                                     </a>
                                 </Link>
                             </div>
-                        </div>
-                        <div className="text-center">
-                            <Link href="/blog">
-                                <a className="hover-up-5 inline-block py-4 px-8 text-xs text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded">Show all posts</a>
-                            </Link>
                         </div>
                     </div>
                 </section>
