@@ -209,6 +209,7 @@ const Services = () => {
                   </p>
                 </div>
               </div>
+
               <div
                 className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
                 data-wow-delay=".5s"
@@ -223,14 +224,15 @@ const Services = () => {
                     alt="Monst"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
-                    Project planning
+                    AI Integration
                   </h3>
                   <p className="text-sm text-blueGray-400 leading-relaxed">
-                    A project plan is essential to keep everything related to
-                    the project organized, methodical, and on track.
+                    Leveraging AI to automate processes and provide deeper
+                    insights for better decision-making and efficiency.
                   </p>
                 </div>
               </div>
+
               <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
                 <div
                   className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn"
@@ -245,11 +247,11 @@ const Services = () => {
                     alt="Monst"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
-                    Project organization
+                    AI-Powered Analytics
                   </h3>
                   <p className="text-sm text-blueGray-400 leading-relaxed">
-                    Moving forward you will be able to keep yourself and your
-                    team on track, and address challenges early.
+                    Utilizing AI algorithms to analyze data trends and provide
+                    actionable insights for your business.
                   </p>
                 </div>
               </div>
