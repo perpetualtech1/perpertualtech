@@ -130,7 +130,8 @@ const Blog2 = () => {
                   There are lots of different attitudes people take towards
                   technology in their businesses. Some look at technology as an
                   expense that needs to be managed. Others are ambivalent and
-                  have both frustrations and enthusiasm depending on what kind...
+                  have both frustrations and enthusiasm depending on what
+                  kind...
                   {/* of technology you’re talking about. There are some good
                   reasons these attitudes exist in the first place. Most people
                   can relate to technology projects going way over budget, or
