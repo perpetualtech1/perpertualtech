@@ -186,56 +186,58 @@ const Services = () => {
                 </h2>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-3 -mb-6 text-center">
+            <div className="flex flex-wrap -mx-3 -mb-6 text-center justify-stretch">
               <div
                 className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
                 data-wow-delay=".3s"
               >
-                <div className="p-12 bg-white shadow rounded">
+                <div className="p-12 bg-white shadow rounded h-full">
                   <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
                     1
                   </div>
                   <img
                     className="h-36 mx-auto my-4"
                     src="/assets/imgs/illustrations/eating.svg"
-                    alt="Monst"
+                    alt="Project Initialization"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
                     Project Initialization
                   </h3>
                   <p className="text-sm text-blueGray-400 leading-relaxed">
-                    Project initiation ensures that you lay a strong foundation
-                    for a new project in your company our team.
+                    Lay a strong foundation for your AI-driven project. Our team
+                    ensures the right setup and integration of AI tools such as
+                    ChatGPT to streamline your business processes.
                   </p>
                 </div>
               </div>
-
               <div
                 className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
                 data-wow-delay=".5s"
               >
-                <div className="p-12 bg-white shadow rounded">
+                <div className="p-12 bg-white shadow rounded h-full">
                   <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
                     2
                   </div>
                   <img
                     className="h-36 mx-auto my-4"
                     src="/assets/imgs/illustrations/space.svg"
-                    alt="Monst"
+                    alt="Project Planning"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
-                    AI Integration
+                    Project Planning
                   </h3>
                   <p className="text-sm text-blueGray-400 leading-relaxed">
-                    Leveraging AI to automate processes and provide deeper
-                    insights for better decision-making and efficiency.
+                    Develop a comprehensive plan that integrates AI components,
+                    ensuring your project stays organized, methodical, and on
+                    track. Tools like predictive analytics and machine learning
+                    models are embedded to provide foresight and strategic
+                    insights.
                   </p>
                 </div>
               </div>
-
               <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
                 <div
-                  className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn"
+                  className="p-12 bg-white shadow h-full rounded wow animate__animated animate__fadeIn"
                   data-wow-delay=".7s"
                 >
                   <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
@@ -244,14 +246,16 @@ const Services = () => {
                   <img
                     className="h-36 mx-auto my-4"
                     src="/assets/imgs/illustrations/tasks.svg"
-                    alt="Monst"
+                    alt="Project Organization"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
-                    AI-Powered Analytics
+                    Project Organization
                   </h3>
                   <p className="text-sm text-blueGray-400 leading-relaxed">
-                    Utilizing AI algorithms to analyze data trends and provide
-                    actionable insights for your business.
+                    Ensure the smooth execution of your project by utilizing AI
+                    solutions to maintain organization and efficiency. ChatGPT
+                    aids in real-time communication and task management, helping
+                    to keep your team aligned and on track.
                   </p>
                 </div>
               </div>
