@@ -9,7 +9,7 @@ const Custom404 = () => {
         <section className="pb-32 pt-20">
           <div className="container text-center">
             <img
-              className="wow animate__animated animate__fadeIn mx-auto mb-12 mb-4 md:max-w-md"
+              className="wow animate__animated animate__fadeIn mx-auto mb-12 md:max-w-md"
               src="/assets/imgs/illustrations/error2.png"
               alt="Monst"
             />
