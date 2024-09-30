@@ -17,14 +17,14 @@ const Header = ({ handleHidden }) => {
       <header
         className={
           scroll
-            ? "bg-transparent sticky-bar mt-4 stick"
-            : "bg-transparent sticky-bar mt-4"
+            ? "sticky-bar stick mt-4 bg-transparent"
+            : "sticky-bar mt-4 bg-transparent"
         }
       >
         <div className="container bg-transparent">
-          <nav className="bg-transparent flex justify-between items-center py-3">
+          <nav className="flex items-center justify-between bg-transparent py-3">
             <Link href="/">
-              <a className="text-3xl font-semibold leading-none">
+              <a className="leading-none text-3xl font-semibold">
                 <img
                   className="h-10"
                   src="/assets/imgs/logos/perp-logo.svg"
@@ -32,29 +32,29 @@ const Header = ({ handleHidden }) => {
                 />
               </a>
             </Link>
-            <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
-              <li className="group relative pt-4 pb-4 has-child">
+            <ul className="hidden lg:flex lg:w-auto lg:items-center lg:space-x-12">
+              <li className="has-child group relative py-4">
                 <Link href="/">
                   <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                     Home
                   </a>
                 </Link>
               </li>
-              <li className="pt-4 pb-4">
+              <li className="py-4">
                 <Link href="/about">
                   <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                     About Us
                   </a>
                 </Link>
               </li>
-              <li className="pt-4 pb-4">
+              <li className="py-4">
                 <Link href="/services">
                   <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                     Services
                   </a>
                 </Link>
               </li>
-              <li className="group relative pt-4 pb-4 has-child">
+              <li className="has-child group relative py-4">
                 <Link href="/blog">
                   <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                     Blog
@@ -69,11 +69,11 @@ const Header = ({ handleHidden }) => {
             </div>
             <div className="lg:hidden">
               <button
-                className="navbar-burger flex items-center py-2 px-3 text-blue-500 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300"
+                className="navbar-burger flex items-center rounded border border-blue-200 px-3 py-2 text-blue-500 hover:border-blue-300 hover:text-blue-700"
                 onClick={handleHidden}
               >
                 <svg
-                  className="fill-current h-4 w-4"
+                  className="size-4 fill-current"
                   viewbox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >

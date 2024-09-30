@@ -8,12 +8,12 @@ const Blog2 = () => {
       <Layout>
         <section className="py-20">
           <div className="container">
-            <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">
+            <h1 className="wow animate__animated animate__fadeIn animated mb-5 text-2xl font-bold lg:text-5xl">
               Our Blog
             </h1>
-            <ul className="flex text-gray-500 text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
+            <ul className="wow animate__animated animate__fadeIn animated flex pb-12 text-sm text-gray-500 lg:text-sm">
               <li className="inline-flex items-center">
-                <a href="#" className="hover:text-blue-500 text-gray-800">
+                <a href="#" className="text-gray-800 hover:text-blue-500">
                   Home
                 </a>
                 <svg
@@ -29,7 +29,7 @@ const Blog2 = () => {
                 </svg>
               </li>
               <li className="inline-flex items-center">
-                <a href="#" className="hover:text-blue-500 text-gray-800">
+                <a href="#" className="text-gray-800 hover:text-blue-500">
                   Our Services
                 </a>
                 <svg
@@ -48,9 +48,9 @@ const Blog2 = () => {
                 <span>Web Development</span>
               </li>
             </ul>
-            <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
-              <div className="w-full lg:w-1/2 px-4 lg:pr-20 order-1 lg:order-0">
-                <h3 className="mb-4 text-xl md:text-2xl font-bold font-heading">
+            <div className="wow animate__animated animate__fadeIn animated hover-up-5 -mx-4 mb-12 flex flex-wrap">
+              <div className="order-1 w-full px-4 lg:order-none lg:w-1/2 lg:pr-20">
+                <h3 className="font-heading mb-4 text-xl font-bold md:text-2xl">
                   <Link href="#">
                     <a className="hover:text-blue-500">
                       {" "}
@@ -58,7 +58,7 @@ const Blog2 = () => {
                     </a>
                   </Link>
                 </h3>
-                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">
+                <p className="leading-loose mb-4 text-sm text-blueGray-400 md:text-base">
                   The rise of 5G networks create the potential for new ways of
                   working as well as benefits to the daily lives of many people
                   that they probably haven’t considered yet. We often think
@@ -71,11 +71,11 @@ const Blog2 = () => {
                   years. */}
                 </p>
               </div>
-              <div className="w-full lg:w-1/2 px-4 mb-8 order-0 lg:order-1">
+              <div className="order-none mb-8 w-full px-4 lg:order-1 lg:w-1/2">
                 <Link href="#">
                   <a>
                     <img
-                      className="h-80 w-full object-cover rounded"
+                      className="h-80 w-full rounded object-cover"
                       src="/assets/imgs/placeholders/img-6.png"
                       alt="Perpetualtech"
                     />
@@ -83,9 +83,9 @@ const Blog2 = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
-              <div className="w-full lg:w-1/2 px-4 lg:pr-20 order-1 lg:order-0">
-                <h3 className="mb-4 text-xl md:text-2xl font-bold font-heading">
+            <div className="wow animate__animated animate__fadeIn animated hover-up-5 -mx-4 mb-12 flex flex-wrap">
+              <div className="order-1 w-full px-4 lg:order-none lg:w-1/2 lg:pr-20">
+                <h3 className="font-heading mb-4 text-xl font-bold md:text-2xl">
                   <Link href="#">
                     <a className="hover:text-blue-500">
                       {" "}
@@ -93,7 +93,7 @@ const Blog2 = () => {
                     </a>
                   </Link>
                 </h3>
-                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">
+                <p className="leading-loose mb-4 text-sm text-blueGray-400 md:text-base">
                   A Single Point of Failure can exist at many levels in a
                   complex system; ranging from hardware failure, loss of network
                   from a service provider or a software failure on a server.
@@ -104,11 +104,11 @@ const Blog2 = () => {
                   implemented solutions for Application Level availability. */}
                 </p>
               </div>
-              <div className="w-full lg:w-1/2 px-4 mb-8 order-0">
+              <div className="order-none mb-8 w-full px-4 lg:w-1/2">
                 <Link href="#">
                   <a>
                     <img
-                      className="h-80 w-full object-cover rounded"
+                      className="h-80 w-full rounded object-cover"
                       src="/assets/imgs/placeholders/img-7.png"
                       alt="Perpetualtech"
                     />
@@ -116,9 +116,9 @@ const Blog2 = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
-              <div className="w-full lg:w-1/2 px-4 lg:pr-20 order-1 lg:order-0">
-                <h3 className="mb-4 text-xl md:text-2xl font-bold font-heading">
+            <div className="wow animate__animated animate__fadeIn animated hover-up-5 -mx-4 mb-12 flex flex-wrap">
+              <div className="order-1 w-full px-4 lg:order-none lg:w-1/2 lg:pr-20">
+                <h3 className="font-heading mb-4 text-xl font-bold md:text-2xl">
                   <Link href="#">
                     <a className="hover:text-blue-500">
                       {" "}
@@ -126,7 +126,7 @@ const Blog2 = () => {
                     </a>
                   </Link>
                 </h3>
-                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">
+                <p className="leading-loose mb-4 text-sm text-blueGray-400 md:text-base">
                   There are lots of different attitudes people take towards
                   technology in their businesses. Some look at technology as an
                   expense that needs to be managed. Others are ambivalent and
@@ -140,11 +140,11 @@ const Blog2 = () => {
                   stress and anxiety. */}
                 </p>
               </div>
-              <div className="w-full lg:w-1/2 px-4 mb-8 order-0 lg:order-1">
+              <div className="order-none mb-8 w-full px-4 lg:order-1 lg:w-1/2">
                 <Link href="#">
                   <a>
                     <img
-                      className="h-80 w-full object-cover rounded"
+                      className="h-80 w-full rounded object-cover"
                       src="/assets/imgs/placeholders/img-8.png"
                       alt="Perpetualtech"
                     />
@@ -152,17 +152,17 @@ const Blog2 = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-4 mb-12 wow animate__animated animate__fadeIn animated hover-up-5">
-              <div className="w-full lg:w-1/2 px-4 lg:pr-20 order-1 lg:order-0">
-                <h3 className="mb-4 text-xl md:text-2xl font-bold font-heading">
+            <div className="wow animate__animated animate__fadeIn animated hover-up-5 -mx-4 mb-12 flex flex-wrap">
+              <div className="order-1 w-full px-4 lg:order-none lg:w-1/2 lg:pr-20">
+                <h3 className="font-heading mb-4 text-xl font-bold md:text-2xl">
                   <Link href="#">
-                    <a className="hover:text-blue-500 capital">
+                    <a className="capitalize hover:text-blue-500">
                       {" "}
                       Enhanced Blockchain-as-a-Service
                     </a>
                   </Link>
                 </h3>
-                <p className="mb-4 text-sm md:text-base leading-loose text-blueGray-400">
+                <p className="leading-loose mb-4 text-sm text-blueGray-400 md:text-base">
                   In its infancy, blockchain solutions offered encryption,
                   immutability, and some form of distribution. As time went on,
                   we saw new features added including advancements in
@@ -177,11 +177,11 @@ const Blog2 = () => {
                   analytics, and provable truth. */}
                 </p>
               </div>
-              <div className="w-full lg:w-1/2 px-4 mb-8 order-0">
+              <div className="order-none mb-8 w-full px-4 lg:w-1/2">
                 <Link href="#">
                   <a>
                     <img
-                      className="h-80 w-full object-cover rounded"
+                      className="h-80 w-full rounded object-cover"
                       src="/assets/imgs/placeholders/img-9.jpg"
                       alt="Perpetualtech"
                     />

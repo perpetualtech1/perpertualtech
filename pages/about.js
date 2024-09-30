@@ -35,34 +35,34 @@ const About = () => {
   return (
     <>
       <Layout>
-        <section className="relative pt-20 items-center flex">
+        <section className="relative flex items-center pt-20">
           <div
-            className="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-blueGray-100 z-0"
-            style={{ "z-index": "-1" }}
+            className="absolute inset-0 z-0 ml-auto hidden w-1/2 bg-blueGray-100 lg:block"
+            style={{ "zIndex": "-1" }}
           ></div>
           <div className="container">
-            <div className="flex flex-wrap items-center -mx-3">
-              <div className="w-full lg:w-1/2 px-3">
+            <div className="-mx-3 flex flex-wrap items-center">
+              <div className="w-full px-3 lg:w-1/2">
                 <div className="py-12">
-                  <div className="max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left">
-                    <h2 className="text-3xl lg:text-5xl mb-4 font-bold font-heading wow animate__animatedanimated animate__fadeIn">
+                  <div className="mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left">
+                    <h2 className="font-heading wow animate__animated animated animate__fadeIn mb-4 text-3xl font-bold lg:text-5xl">
                       Get to know about us and{" "}
                       <span className="text-blue-500">relive</span> our journey
                     </h2>
-                    <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">
+                    <p className="wow animate__animated animated animate__fadeIn leading-relaxed mt-3 text-sm text-blueGray-400">
                       Get acquainted with our team and understand how we work
                       and proceed towards sucess.{" "}
                     </p>
                   </div>
                   <div className="text-center lg:text-left">
                     <Link href="/services">
-                      <a className="tracking-wide hover-up-2 block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded wow animate__animatedanimated animate__fadeIn">
+                      <a className="hover-up-2 wow animate__animatedanimated animate__fadeIn leading-none mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold tracking-wide text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block">
                         Our Services
                       </a>
                     </Link>
                     <Link href="#how-we-work">
                       <a
-                        className="block hover-up-2 sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded wow animate__animatedanimated animate__fadeIn"
+                        className="hover-up-2 wow animate__animatedanimated animate__fadeIn leading-none block rounded border border-blueGray-200 bg-white px-8 py-4 text-center text-xs font-semibold text-blueGray-500 hover:border-blueGray-300 hover:text-blueGray-600 sm:inline-block"
                         data-wow-delay=".3s"
                       >
                         How We Work?
@@ -71,7 +71,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full lg:w-1/2 px-3 lg:bg-blueGray-10 mb-12 lg:mb-0 pb-10">
+              <div className="mb-12 w-full px-3 pb-10 lg:mb-0 lg:w-1/2 lg:bg-blueGray-100">
                 <div className="flex items-center justify-center">
                   <img
                     className="lg:max-w-lg"
@@ -84,11 +84,11 @@ const About = () => {
           </div>
         </section>
 
-        <section className="py-20 bg-blueGray-50" id="how-we-work">
+        <section className="bg-blueGray-50 py-20" id="how-we-work">
           <div className="container">
-            <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
-              <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
-                <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown">
+            <div className="mb-12 flex max-w-2xl flex-wrap items-center justify-between lg:max-w-full">
+              <div className="mb-4 w-full lg:mb-0 lg:w-1/2">
+                <h2 className="font-heading wow animate__animatedanimated animate__fadeInDown text-3xl font-bold md:text-4xl">
                   <span>We are </span>
                   <span className="text-blue-500">awesome team </span>
                   <br />
@@ -96,68 +96,68 @@ const About = () => {
                 </h2>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-3 -mb-6 text-center">
+            <div className="-mx-3 -mb-6 flex flex-wrap text-center">
               <div
-                className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
+                className="hover-up-5 wow animate__animated animate__fadeIn mb-6 w-full px-3 md:w-1/2 lg:w-1/3"
                 data-wow-delay=".3s"
               >
-                <div className="p-12 bg-white shadow rounded">
-                  <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                <div className="rounded bg-white p-12 shadow">
+                  <div className="font-heading mx-auto flex size-12 items-center justify-center rounded-full bg-blue-200 font-bold text-blue-800">
                     1
                   </div>
                   <img
-                    className="h-36 mx-auto my-4"
+                    className="mx-auto my-4 h-36"
                     src="/assets/imgs/illustrations/about.svg"
                     alt="Monst"
                   />
-                  <h3 className="mb-2 font-bold font-heading text-xl">
+                  <h3 className="font-heading mb-2 text-xl font-bold">
                     Project Initialization
                   </h3>
-                  <p className="text-sm text-blueGray-400 leading-relaxed">
+                  <p className="leading-relaxed text-sm text-blueGray-400">
                     Project initiation ensures that you lay a strong foundation
                     for a new project in your company our team.
                   </p>
                 </div>
               </div>
               <div
-                className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
+                className="hover-up-5 wow animate__animated animate__fadeIn mb-6 w-full px-3 md:w-1/2 lg:w-1/3"
                 data-wow-delay=".5s"
               >
-                <div className="p-12 bg-white shadow rounded">
-                  <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                <div className="rounded bg-white p-12 shadow">
+                  <div className="font-heading mx-auto flex size-12 items-center justify-center rounded-full bg-blue-200 font-bold text-blue-800">
                     2
                   </div>
                   <img
-                    className="h-36 mx-auto my-4"
+                    className="mx-auto my-4 h-36"
                     src="/assets/imgs/illustrations/space.svg"
                     alt="Monst"
                   />
-                  <h3 className="mb-2 font-bold font-heading text-xl">
+                  <h3 className="font-heading mb-2 text-xl font-bold">
                     Project planning
                   </h3>
-                  <p className="text-sm text-blueGray-400 leading-relaxed">
+                  <p className="leading-relaxed text-sm text-blueGray-400">
                     A project plan is essential to keep everything related to
                     the project organized, methodical, and on track.
                   </p>
                 </div>
               </div>
-              <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
+              <div className="hover-up-5 mb-6 w-full px-3 lg:w-1/3">
                 <div
-                  className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn"
+                  className="wow animate__animated animate__fadeIn rounded bg-white p-12 shadow"
                   data-wow-delay=".7s"
                 >
-                  <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                  <div className="font-heading mx-auto flex size-12 items-center justify-center rounded-full bg-blue-200 font-bold text-blue-800">
                     3
                   </div>
                   <img
-                    className="h-36 mx-auto my-4"
+                    className="mx-auto my-4 h-36"
                     src="/assets/imgs/illustrations/tasks.svg"
                     alt="Monst"
                   />
-                  <h3 className="mb-2 font-bold font-heading text-xl">
+                  <h3 className="font-heading mb-2 text-xl font-bold">
                     Project organization
                   </h3>
-                  <p className="text-sm text-blueGray-400 leading-relaxed">
+                  <p className="leading-relaxed text-sm text-blueGray-400">
                     Moving forward you will be able to keep yourself and your
                     team on track, and address challenges early.
                   </p>
@@ -209,16 +209,16 @@ const About = () => {
                 </section> */}
         <section className="pb-20 pt-16">
           <div className="container">
-            <div className="max-w-2xl mx-auto text-center">
-              <div className="max-w-md mb-8 mx-auto">
+            <div className="mx-auto max-w-2xl text-center">
+              <div className="mx-auto mb-8 max-w-md">
                 <span
-                  className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl wow animate__animatedanimated animate__fadeIn"
+                  className="wow animate__animatedanimated animate__fadeIn inline-block rounded-xl bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-600"
                   data-wow-delay=".1s"
                 >
                   Contact Us
                 </span>
                 <h2
-                  className="mt-2 text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeIn"
+                  className="font-heading wow animate__animatedanimated animate__fadeIn mt-2 text-4xl font-bold"
                   data-wow-delay=".s"
                 >
                   We will <span className="text-blue-500">be glad</span> to hear
@@ -230,11 +230,11 @@ const About = () => {
                 {!formSubmitted ? (
                   <form ref={form} onSubmit={sendEmail}>
                     <div
-                      className="mb-4 wow animate__animatedanimated animate__fadeIn"
+                      className="wow animate__animatedanimated animate__fadeIn mb-4"
                       data-wow-delay=".3s"
                     >
                       <input
-                        className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
+                        className="leading-none w-full rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
                         type="text"
                         placeholder="Name"
                         required
@@ -243,11 +243,11 @@ const About = () => {
                     </div>
 
                     <div
-                      className="mb-4 wow animate__animatedanimated animate__fadeIn"
+                      className="wow animate__animatedanimated animate__fadeIn mb-4"
                       data-wow-delay=".3s"
                     >
                       <input
-                        className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
+                        className="leading-none w-full rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
                         type="email"
                         placeholder="name@email.com"
                         required
@@ -255,22 +255,22 @@ const About = () => {
                       />
                     </div>
                     <div
-                      className="mb-4 wow animate__animatedanimated animate__fadeIn"
+                      className="wow animate__animatedanimated animate__fadeIn mb-4"
                       data-wow-delay=".3s"
                     >
                       <textarea
-                        className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none"
+                        className="leading-none h-24 w-full resize-none rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
                         placeholder="Message..."
                         required
                         name="message"
                       ></textarea>
                     </div>
                     <div
-                      className="mb-4 wow animate__animatedanimated animate__fadeIn"
+                      className="wow animate__animatedanimated animate__fadeIn mb-4"
                       data-wow-delay=".3s"
                     ></div>
                     <div
-                      className="flex justify-between items-center wow animate__animatedanimated animate__fadeIn"
+                      className="wow animate__animatedanimated animate__fadeIn flex items-center justify-between"
                       data-wow-delay=".3s"
                     >
                       <ReCAPTCHA
@@ -278,7 +278,7 @@ const About = () => {
                       />
 
                       <button
-                        className="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-500 hover:bg-blue-700 rounded"
+                        className="leading-none rounded bg-blue-500 px-8 py-4 text-sm font-semibold text-white hover:bg-blue-700"
                         type="submit"
                       >
                         Submit
@@ -286,7 +286,7 @@ const About = () => {
                     </div>
                   </form>
                 ) : (
-                  <p className="text-center mx-auto text-xl py-10 font-bold">
+                  <p className="mx-auto py-10 text-center text-xl font-bold">
                     We got your response! 😄
                   </p>
                 )}

@@ -6,13 +6,13 @@ const Footer = () => {
     <>
       <section className="py-20">
         <div
-          className="container px-4 mx-auto wow animate__animated animate__fadeIn"
+          className="wow animate__animated animate__fadeIn container mx-auto px-4"
           data-wow-delay=".3s"
         >
-          <div className="flex flex-wrap mb-12 lg:mb-20 -mx-3 text-center lg:text-left">
-            <div className="w-full lg:w-1/5 px-3 mb-6 lg:mb-0">
+          <div className="-mx-3 mb-12 flex flex-wrap text-center lg:mb-20 lg:text-left">
+            <div className="mb-6 w-full px-3 lg:mb-0 lg:w-1/5">
               <Link href="/">
-                <a className="inline-block mx-auto lg:mx-0 text-3xl font-semibold leading-none">
+                <a className="leading-none mx-auto inline-block text-3xl font-semibold lg:mx-0">
                   <img
                     className="h-10"
                     src="/assets/imgs/logos/perp-logo.svg"
@@ -21,26 +21,26 @@ const Footer = () => {
                 </a>
               </Link>
             </div>
-            <div className="w-full lg:w-2/5 px-3 mb-8 lg:mb-0">
-              <p className="max-w-md mx-auto lg:max-w-full lg:mx-0 lg:pr-32 lg:text-lg text-blueGray-400 leading-relaxed">
+            <div className="mb-8 w-full px-3 lg:mb-0 lg:w-2/5">
+              <p className="leading-relaxed mx-auto max-w-md text-blueGray-400 lg:mx-0 lg:max-w-full lg:pr-32 lg:text-lg">
                 Helping you <strong>maximize</strong> operations management with
                 digitization
               </p>
             </div>
-            <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
+            <div className="mb-8 w-full px-3 lg:mb-0 lg:w-1/5">
               {/* <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Office</p>
                             <p className="lg:text-lg text-blueGray-400">359 Hidden Valley Road, NY</p> */}
             </div>
-            <div className="w-full lg:w-1/5 px-3">
-              <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">
+            <div className="w-full px-3 lg:w-1/5">
+              <p className="font-heading mb-2 font-bold text-blueGray-800 lg:mb-4 lg:text-lg">
                 Contacts
               </p>
-              <p className="lg:text-lg text-blueGray-400">
+              <p className="text-blueGray-400 lg:text-lg">
                 contact@perpectualtech.co
               </p>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row items-center lg:justify-between">
+          <div className="flex flex-col items-center lg:flex-row lg:justify-between">
             <p className="text-sm text-blueGray-400">
               &copy; 2023. All rights reserved.
             </p>

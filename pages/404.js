@@ -6,27 +6,27 @@ const Custom404 = () => {
   return (
     <>
       <Layout>
-        <section className="pt-20 pb-32">
+        <section className="pb-32 pt-20">
           <div className="container text-center">
             <img
-              className="mb-4 mx-auto md:max-w-md mb-12 wow animate__animated animate__fadeIn"
+              className="wow animate__animated animate__fadeIn mx-auto mb-12 mb-4 md:max-w-md"
               src="/assets/imgs/illustrations/error2.png"
               alt="Monst"
             />
             <span
-              className="text-4xl text-blue-500 font-bold font-heading wow animate__animated animate__fadeIn"
+              className="font-heading wow animate__animated animate__fadeIn text-4xl font-bold text-blue-500"
               data-wow-delay=".2s"
             >
               Error 404
             </span>
             <h2
-              className="mb-2 text-4xl font-bold font-heading wow animate__animated animate__fadeIn"
+              className="font-heading wow animate__animated animate__fadeIn mb-2 text-4xl font-bold"
               data-wow-delay=".3s"
             >
               Something went wrong!
             </h2>
             <p
-              className="mb-6 text-blueGray-400 wow animate__animated animate__fadeIn"
+              className="wow animate__animated animate__fadeIn mb-6 text-blueGray-400"
               data-wow-delay=".4s"
             >
               Sorry, but we are unable to open this page.
@@ -34,7 +34,7 @@ const Custom404 = () => {
             <div>
               <Link href="/">
                 <a
-                  className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded wow animate__animated animate__fadeIn"
+                  className="wow animate__animated animate__fadeIn leading-none mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block"
                   data-wow-delay=".5s"
                 >
                   Go back to Homepage
@@ -42,7 +42,7 @@ const Custom404 = () => {
               </Link>
               <Link href="/contact">
                 <a
-                  className="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-800 text-center font-semibold leading-none bg-blueGray-50 hover:bg-blueGray-100 rounded wow animate__animated animate__fadeIn"
+                  className="wow animate__animated animate__fadeIn leading-none block rounded bg-blueGray-50 px-8 py-4 text-center text-xs font-semibold text-blueGray-500 hover:bg-blueGray-100 hover:text-blueGray-800 sm:inline-block"
                   data-wow-delay=".6s"
                 >
                   Contact Us

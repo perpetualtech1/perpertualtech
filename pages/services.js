@@ -6,14 +6,14 @@ const Services = () => {
   return (
     <>
       <Layout>
-        <section className="-mt-24 pt-40 pb-12 bg-blueGray-100">
+        <section className="-mt-24 bg-blueGray-100 pb-12 pt-40">
           <div className="container">
-            <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">
+            <h1 className="wow animate__animated animate__fadeIn animated mb-5 text-2xl font-bold lg:text-5xl">
               Our Services
             </h1>
-            <ul className="flex text-gray-500 text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
+            <ul className="wow animate__animated animate__fadeIn animated flex pb-12 text-sm text-gray-500 lg:text-sm">
               <li className="inline-flex items-center">
-                <a href="#" className="hover:text-blue-500 text-gray-800">
+                <a href="#" className="text-gray-800 hover:text-blue-500">
                   Home
                 </a>
                 <svg
@@ -29,7 +29,7 @@ const Services = () => {
                 </svg>
               </li>
               <li className="inline-flex items-center">
-                <a href="#" className="hover:text-blue-500 text-gray-800">
+                <a href="#" className="text-gray-800 hover:text-blue-500">
                   Our Services
                 </a>
                 <svg
@@ -51,29 +51,29 @@ const Services = () => {
           </div>
         </section>
         <section className="pt-12">
-          <div className="container py-12 mx-auto">
+          <div className="container mx-auto py-12">
             <div className="flex flex-wrap">
               <div
-                className="w-full md:w-1/2 pr-12 px-3 order-0 md:order-0 mb-12 md:mb-0 wow animate__animated animate__fadeIn"
+                className="wow animate__animated animate__fadeIn order-none mb-12 w-full px-3 pr-12 md:order-none md:mb-0 md:w-1/2"
                 data-wow-delay=".5s"
               >
                 <img
-                  className="sm:max-w-sm lg:max-w-full mx-auto"
+                  className="mx-auto sm:max-w-sm lg:max-w-full"
                   src="/assets/imgs/placeholders/img-6.jpg"
                   alt="Monst"
                 />
               </div>
-              <div className="w-full md:w-1/2 px-3 order-1 md:order-1">
+              <div className="order-1 w-full px-3 md:order-1 md:w-1/2">
                 <div className="max-w-md-2">
                   <div className="mb-4">
                     <span
-                      className="text-xs py-1 px-3 text-blue-500 font-semibold bg-blue-50 rounded-xl wow animate__animated animate__fadeInDown"
+                      className="wow animate__animated animate__fadeInDown rounded-xl bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-500"
                       data-wow-delay=".9s"
                     >
                       Why choose us
                     </span>
                     <h2
-                      className="text-4xl mt-3 font-bold font-heading wow animate__animated animate__fadeIn"
+                      className="font-heading wow animate__animated animate__fadeIn mt-3 text-4xl font-bold"
                       data-wow-delay=".3s"
                     >
                       We Provide Best <br />
@@ -82,7 +82,7 @@ const Services = () => {
                   </div>
 
                   <p
-                    className="mb-6 leading-loose text-blueGray-400 wow animate__animated animate__fadeIn"
+                    className="wow animate__animated animate__fadeIn leading-loose mb-6 text-blueGray-400"
                     data-wow-delay=".1s"
                   >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -91,57 +91,57 @@ const Services = () => {
 
                   <div className="flex flex-wrap">
                     <div
-                      className="w-full md:w-1/2 items-start pt-4 pb-8 wow animate__animated animate__fadeIn"
+                      className="wow animate__animated animate__fadeIn w-full items-start pb-8 pt-4 md:w-1/2"
                       data-wow-delay=".2s"
                     >
-                      <div className="w-8 mb-5 text-blue-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">
+                      <div className="mb-5 w-8 text-blue-500">
+                        <span className="mr-4 inline-block rounded bg-blue-500 px-4 py-2 text-xs font-semibold text-white">
                           1
                         </span>
                       </div>
                       <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
+                        <h3 className="font-heading mb-2 text-xl font-semibold">
                           Web design UX/UI
                         </h3>
-                        <p className="text-blueGray-400 leading-loose text-sm">
+                        <p className="leading-loose text-sm text-blueGray-400">
                           Effective web design guides users’ eyes and tells them
                           where to look..
                         </p>
                       </div>
                     </div>
                     <div
-                      className="w-full md:w-1/2 items-start py-4 wow animate__animated animate__fadeIn"
+                      className="wow animate__animated animate__fadeIn w-full items-start py-4 md:w-1/2"
                       data-wow-delay=".3s"
                     >
-                      <div className="w-8 mb-5 text-blue-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">
+                      <div className="mb-5 w-8 text-blue-500">
+                        <span className="mr-4 inline-block rounded bg-blue-500 px-4 py-2 text-xs font-semibold text-white">
                           2
                         </span>
                       </div>
                       <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
+                        <h3 className="font-heading mb-2 text-xl font-semibold">
                           React Development
                         </h3>
-                        <p className="text-blueGray-400 leading-loose text-sm">
+                        <p className="leading-loose text-sm text-blueGray-400">
                           Developers save time by not having to write the same
                           code multiple times.
                         </p>
                       </div>
                     </div>
                     <div
-                      className="w-full md:w-1/2 items-start py-4 wow animate__animated animate__fadeIn"
+                      className="wow animate__animated animate__fadeIn w-full items-start py-4 md:w-1/2"
                       data-wow-delay=".4s"
                     >
-                      <div className="w-8 mb-5 text-blue-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">
+                      <div className="mb-5 w-8 text-blue-500">
+                        <span className="mr-4 inline-block rounded bg-blue-500 px-4 py-2 text-xs font-semibold text-white">
                           3
                         </span>
                       </div>
                       <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
+                        <h3 className="font-heading mb-2 text-xl font-semibold">
                           Ecommerce Build
                         </h3>
-                        <p className="text-blueGray-400 leading-loose text-sm">
+                        <p className="leading-loose text-sm text-blueGray-400">
                           Marketing through social media is a great way to gain
                           new insights, acquire loyal customers, and get
                           creative.
@@ -149,19 +149,19 @@ const Services = () => {
                       </div>
                     </div>
                     <div
-                      className="w-full md:w-1/2 items-start py-4 wow animate__animated animate__fadeIn"
+                      className="wow animate__animated animate__fadeIn w-full items-start py-4 md:w-1/2"
                       data-wow-delay=".5s"
                     >
-                      <div className="w-8 mb-5 text-blue-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-blue-500 text-white rounded">
+                      <div className="mb-5 w-8 text-blue-500">
+                        <span className="mr-4 inline-block rounded bg-blue-500 px-4 py-2 text-xs font-semibold text-white">
                           4
                         </span>
                       </div>
                       <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
+                        <h3 className="font-heading mb-2 text-xl font-semibold">
                           CMS Development
                         </h3>
-                        <p className="text-blueGray-400 leading-loose text-sm">
+                        <p className="leading-loose text-sm text-blueGray-400">
                           CMS allows you to quickly create a mobile-friendly web
                           application.
                         </p>
@@ -174,11 +174,11 @@ const Services = () => {
           </div>
         </section>
 
-        <section className="pt-20 pb-24 bg-blueGray-50" id="how-we-work">
+        <section className="bg-blueGray-50 pb-24 pt-20" id="how-we-work">
           <div className="container">
-            <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
-              <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
-                <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown">
+            <div className="mb-12 flex max-w-2xl flex-wrap items-center justify-between lg:max-w-full">
+              <div className="mb-4 w-full lg:mb-0 lg:w-1/2">
+                <h2 className="font-heading wow animate__animated animate__fadeInDown text-3xl font-bold md:text-4xl">
                   <span>We are </span>
                   <span className="text-blue-500">awesome team </span>
                   <br />
@@ -186,24 +186,24 @@ const Services = () => {
                 </h2>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-3 -mb-6 text-center justify-stretch">
+            <div className="-mx-3 -mb-6 flex flex-wrap justify-stretch text-center">
               <div
-                className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
+                className="hover-up-5 wow animate__animated animate__fadeIn mb-6 w-full px-3 md:w-1/2 lg:w-1/3"
                 data-wow-delay=".3s"
               >
-                <div className="p-12 bg-white shadow rounded h-full">
-                  <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                <div className="h-full rounded bg-white p-12 shadow">
+                  <div className="font-heading mx-auto flex size-12 items-center justify-center rounded-full bg-blue-200 font-bold text-blue-800">
                     1
                   </div>
                   <img
-                    className="h-36 mx-auto my-4"
+                    className="mx-auto my-4 h-36"
                     src="/assets/imgs/illustrations/eating.svg"
                     alt="Project Initialization"
                   />
-                  <h3 className="mb-2 font-bold font-heading text-xl">
+                  <h3 className="font-heading mb-2 text-xl font-bold">
                     Project Initialization
                   </h3>
-                  <p className="text-sm text-blueGray-400 leading-relaxed">
+                  <p className="leading-relaxed text-sm text-blueGray-400">
                     Lay a strong foundation for your AI-driven project. Our team
                     ensures the right setup and integration of AI tools such as
                     ChatGPT to streamline your business processes.
@@ -211,22 +211,22 @@ const Services = () => {
                 </div>
               </div>
               <div
-                className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn"
+                className="hover-up-5 wow animate__animated animate__fadeIn mb-6 w-full px-3 md:w-1/2 lg:w-1/3"
                 data-wow-delay=".5s"
               >
-                <div className="p-12 bg-white shadow rounded h-full">
-                  <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                <div className="h-full rounded bg-white p-12 shadow">
+                  <div className="font-heading mx-auto flex size-12 items-center justify-center rounded-full bg-blue-200 font-bold text-blue-800">
                     2
                   </div>
                   <img
-                    className="h-36 mx-auto my-4"
+                    className="mx-auto my-4 h-36"
                     src="/assets/imgs/illustrations/space.svg"
                     alt="Project Planning"
                   />
-                  <h3 className="mb-2 font-bold font-heading text-xl">
+                  <h3 className="font-heading mb-2 text-xl font-bold">
                     Project Planning
                   </h3>
-                  <p className="text-sm text-blueGray-400 leading-relaxed">
+                  <p className="leading-relaxed text-sm text-blueGray-400">
                     Develop a comprehensive plan that integrates AI components,
                     ensuring your project stays organized, methodical, and on
                     track. Tools like predictive analytics and machine learning
@@ -235,23 +235,23 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-              <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
+              <div className="hover-up-5 mb-6 w-full px-3 lg:w-1/3">
                 <div
-                  className="p-12 bg-white shadow h-full rounded wow animate__animated animate__fadeIn"
+                  className="wow animate__animated animate__fadeIn h-full rounded bg-white p-12 shadow"
                   data-wow-delay=".7s"
                 >
-                  <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                  <div className="font-heading mx-auto flex size-12 items-center justify-center rounded-full bg-blue-200 font-bold text-blue-800">
                     3
                   </div>
                   <img
-                    className="h-36 mx-auto my-4"
+                    className="mx-auto my-4 h-36"
                     src="/assets/imgs/illustrations/tasks.svg"
                     alt="Project Organization"
                   />
-                  <h3 className="mb-2 font-bold font-heading text-xl">
+                  <h3 className="font-heading mb-2 text-xl font-bold">
                     Project Organization
                   </h3>
-                  <p className="text-sm text-blueGray-400 leading-relaxed">
+                  <p className="leading-relaxed text-sm text-blueGray-400">
                     Ensure the smooth execution of your project by utilizing AI
                     solutions to maintain organization and efficiency. ChatGPT
                     aids in real-time communication and task management, helping

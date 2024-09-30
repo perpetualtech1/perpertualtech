@@ -1,18 +1,31 @@
 import "../public/assets/css/animate.min.css";
-import React, { useEffect, useState } from "react";
-import "../public/assets/css/tailwind-built.css";
-import Preloader from "../components/elements/Preloader";
+import "../public/assets/css/global.css";
 import "swiper/css";
 
+import React, { useEffect, useState } from "react";
+
+import Preloader from "../components/elements/Preloader";
+
 function MyApp({ Component, pageProps }) {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
+    const handleLoad = () => {
       setLoading(false);
-    }, 2000);
+    };
+
+    window.addEventListener('load', handleLoad);
+
+    // Cleanup the event listener on component unmount
+    return () => window.removeEventListener('load', handleLoad);
   }, []);
-  return <>{!loading ? <Component {...pageProps} /> : <Preloader />}</>;
+
+  return (
+    <>
+        <Preloader loading={loading} />
+        <Component {...pageProps} />
+    </>
+  );
 }
 
 export default MyApp;
