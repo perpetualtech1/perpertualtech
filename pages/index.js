@@ -6,7 +6,7 @@ import Slider2 from "../components/slider/Slider2";
 import TextEffect from "../components/elements/TextEffect";
 import aiDataAnalysis from "../public/assets/imgs/icons/ai-data-analysis.svg";
 import aiTravelEngine from "../public/assets/imgs/icons/ai-travel-engine.svg";
-import briefCase from "../public/assets/imgs/icons/briefcase.svg";
+import briefCase from "../public/assets/imgs/icons/brief-case.svg";
 import machineLearning from "../public/assets/imgs/icons/machine-learning.svg";
 import piechart from "../public/assets/imgs/icons/pie-chart.svg";
 import predictAnalytics from "../public/assets/imgs/icons/predict-analytics.svg";
