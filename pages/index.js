@@ -84,10 +84,10 @@ const Features = () => {
   return (
     <>
       <Layout>
-        <section className="relative flex items-center pt-20">
+        <section className="relative flex items-center ">
           <div
             className="absolute inset-0 z-0 ml-auto hidden w-1/2 bg-blueGray-100 lg:block"
-            style={{ "zIndex": "-1" }}
+            style={{ zIndex: "-1" }}
           ></div>
           <div className="container">
             <div className="-mx-3 flex flex-wrap items-center">
@@ -114,7 +114,7 @@ const Features = () => {
                       digitization
                     </p>
                   </div>
-                  <div className="text-center lg:text-left">
+                  <div className="text-center lg:text-left mb-4">
                     <a
                       className="hover-up-2 wow animate__animated animate__fadeIn leading-none mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold tracking-wide text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block"
                       href="#key-features"
@@ -131,13 +131,69 @@ const Features = () => {
                   </div>
                 </div>
               </div>
-              <div className="mb-12 w-full px-3 pb-10 pt-12 lg:mb-0 lg:w-1/2 lg:bg-blueGray-100">
-                <div className="flex items-center justify-center">
-                  <img
-                    className="lg:max-w-lg"
-                    src="/assets/imgs/illustrations/hero.svg"
-                    alt="Monst"
-                  />
+              <div className="mb-12 w-full px-3 pb-10 pt-12 lg:mb-0 relative lg:w-1/2 lg:bg-blueGray-100 md:h-[calc(100vh-98px)]">
+                <div className="flex items-center justify-center ">
+                  <div className="flex flex-col items-center justify-center absolute inset-0 z-10">
+                    <h3 className="font-heading mb-4 pl-[10%] text-2xl font-bold">
+                      Discover Our Latest Projects
+                    </h3>
+                    <div className="flex justify-center pl-[12%] mt-12">
+                      <div className="shadow-lg max-w-[320px] hover:rotate-[2deg] hover:-translate-y-8 transition-transform bg-white  rounded-lg p-3  rotate-[1deg] z-20 hover:z-30">
+                        <a
+                          href="https://www.taxgpt.ae/"
+                          target="_blank"
+                          className="text-center"
+                          rel="noopener noreferrer"
+                        >
+                          <Image
+                            src="/gif/travelengine.gif"
+                            alt="TaxGPT Project"
+                            width={320} // Adjust the width as needed
+                            height={240} // Adjust the height as needed
+                            className="object-cover rounded-lg shadow-lg"
+                          />
+                          <h2 class="text-base font-semibold mb-2 text-black/80">
+                            TravelEngine
+                          </h2>
+                          <p class="text-blueGray-400 text-xs ">
+                            Find the best places to eat with our AI-powered
+                            recommendations.
+                          </p>
+                        </a>
+                      </div>
+                      <div className="shadow-lg  max-w-[320px] hover:rotate-[2deg] hover:-translate-y-8 transition-transform bg-white  rounded-lg p-3 -ml-[22%] rotate-[-1deg] z-20 text-center">
+                        <a
+                          href="https://www.travelengine.ai/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Image
+                            src="/gif/taxgpt.gif"
+                            alt="TravelEngine.ai Project"
+                            width={320} // Adjust the width as needed
+                            height={240} // Adjust the height as needed
+                            className="object-cover rounded-lg shadow-lg"
+                          />
+                          <h2 class="text-base font-semibold mb-2 text-black/80">
+                            TaxGPT
+                          </h2>
+                          <p class="text-blueGray-400 text-xs ">
+                            Using AI to automate and simplify your tax reporting
+                            and filing.
+                          </p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="pt-[25%] pl-[10%]  flex items-center h-full justify-center">
+                    <Image
+                      className="lg:max-w-lg opacity-15 blur-sm "
+                      src="/assets/imgs/illustrations/hero.svg"
+                      alt="Monst"
+                      width={800} // Adjust the width as needed
+                      height={600} // Adjust the height as needed
+                    />
+                  </div>
                 </div>
               </div>
             </div>
