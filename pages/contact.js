@@ -60,20 +60,20 @@ const Contact = () => {
                         />
                       </span>
                     </p>
-                    <p className="wow animate__animatedanimated animate__fadeIn leading-relaxed mt-3 text-sm text-blueGray-400">
+                    <p className="wow animate__animatedanimated animate__fadeIn mt-3 text-sm leading-relaxed text-blueGray-400">
                       Helping you maximize operations management with
                       digitization
                     </p>
                   </div>
                   <div className="text-center lg:text-left">
                     <Link href="/about">
-                      <a className="hover-up-2 wow animate__animatedanimated animate__fadeIn leading-none mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold tracking-wide text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block">
+                      <a className="hover-up-2 wow animate__animatedanimated animate__fadeIn mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold leading-none tracking-wide text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block">
                         About Us
                       </a>
                     </Link>
                     <Link href="/services">
                       <a
-                        className="hover-up-2 wow animate__animatedanimated animate__fadeIn leading-none block rounded border border-blueGray-200 bg-white px-8 py-4 text-center text-xs font-semibold text-blueGray-500 hover:border-blueGray-300 hover:text-blueGray-600 sm:inline-block"
+                        className="hover-up-2 wow animate__animatedanimated animate__fadeIn block rounded border border-blueGray-200 bg-white px-8 py-4 text-center text-xs font-semibold leading-none text-blueGray-500 hover:border-blueGray-300 hover:text-blueGray-600 sm:inline-block"
                         data-wow-delay=".3s"
                       >
                         Our Services
@@ -121,7 +121,7 @@ const Contact = () => {
                       data-wow-delay=".3s"
                     >
                       <input
-                        className="leading-none w-full rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
+                        className="w-full rounded bg-blueGray-50 p-4 text-xs font-semibold leading-none outline-none"
                         type="text"
                         placeholder="Name"
                         required
@@ -134,7 +134,7 @@ const Contact = () => {
                       data-wow-delay=".3s"
                     >
                       <input
-                        className="leading-none w-full rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
+                        className="w-full rounded bg-blueGray-50 p-4 text-xs font-semibold leading-none outline-none"
                         type="email"
                         placeholder="name@email.com"
                         required
@@ -146,7 +146,7 @@ const Contact = () => {
                       data-wow-delay=".3s"
                     >
                       <textarea
-                        className="leading-none h-24 w-full resize-none rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
+                        className="h-24 w-full resize-none rounded bg-blueGray-50 p-4 text-xs font-semibold leading-none outline-none"
                         placeholder="Message..."
                         required
                         name="message"
@@ -165,7 +165,7 @@ const Contact = () => {
                       />
 
                       <button
-                        className="leading-none rounded bg-blue-500 px-8 py-4 text-sm font-semibold text-white hover:bg-blue-700"
+                        className="rounded bg-blue-500 px-8 py-4 text-sm font-semibold leading-none text-white hover:bg-blue-700"
                         type="submit"
                       >
                         Submit

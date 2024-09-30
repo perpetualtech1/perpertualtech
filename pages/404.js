@@ -34,7 +34,7 @@ const Custom404 = () => {
             <div>
               <Link href="/">
                 <a
-                  className="wow animate__animated animate__fadeIn leading-none mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block"
+                  className="wow animate__animated animate__fadeIn mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold leading-none text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block"
                   data-wow-delay=".5s"
                 >
                   Go back to Homepage
@@ -42,7 +42,7 @@ const Custom404 = () => {
               </Link>
               <Link href="/contact">
                 <a
-                  className="wow animate__animated animate__fadeIn leading-none block rounded bg-blueGray-50 px-8 py-4 text-center text-xs font-semibold text-blueGray-500 hover:bg-blueGray-100 hover:text-blueGray-800 sm:inline-block"
+                  className="wow animate__animated animate__fadeIn block rounded bg-blueGray-50 px-8 py-4 text-center text-xs font-semibold leading-none text-blueGray-500 hover:bg-blueGray-100 hover:text-blueGray-800 sm:inline-block"
                   data-wow-delay=".6s"
                 >
                   Contact Us

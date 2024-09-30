@@ -51,7 +51,7 @@ const BlogSingle = () => {
           <div className="container">
             <div className="mx-auto max-w-2xl">
               <p
-                className="wow animate__animated animate__fadeIn animated leading-loose mb-6 text-blueGray-400"
+                className="wow animate__animated animate__fadeIn animated mb-6 leading-loose text-blueGray-400"
                 data-wow-delay=".1s"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -84,7 +84,7 @@ const BlogSingle = () => {
                 </div>
               </div>
               <p
-                className="wow animate__animated animate__fadeIn animated leading-loose mb-6 text-blueGray-400"
+                className="wow animate__animated animate__fadeIn animated mb-6 leading-loose text-blueGray-400"
                 data-wow-delay=".1s"
               >
                 Duis hendrerit dui in dui ornare luctus. Nullam gravida
@@ -148,7 +148,7 @@ const BlogSingle = () => {
                         <p className="mt-3 text-xs">CEO, Co Founders</p>
                       </div>
                     </div>
-                    <p className="leading-loose mb-5 text-sm">
+                    <p className="mb-5 text-sm leading-loose">
                       Donec consequat tortor risus, at auctor felis consequat a.
                       Donec quis dolor sem. Sed sollicitudin magna in hendrerit
                       pulvinar. Vestibulum non quam velit.
@@ -170,7 +170,7 @@ const BlogSingle = () => {
                         alt="Monst"
                       />
                     </div>
-                    <div className="leading-relaxed flex-1 rounded-lg border border-gray-100 px-4 py-2 sm:px-6 sm:py-4">
+                    <div className="flex-1 rounded-lg border border-gray-100 px-4 py-2 leading-relaxed sm:px-6 sm:py-4">
                       <strong>Kolawole</strong>
                       <span className="text-xs text-gray-400">3:34 PM</span>
                       <p className="text-sm">
@@ -205,7 +205,7 @@ const BlogSingle = () => {
                         alt="Monst"
                       />
                     </div>
-                    <div className="leading-relaxed flex-1 rounded-lg border border-gray-100 px-4 py-2 sm:px-6 sm:py-4">
+                    <div className="flex-1 rounded-lg border border-gray-100 px-4 py-2 leading-relaxed sm:px-6 sm:py-4">
                       <strong>Fulton</strong>
                       <span className="text-xs text-gray-400">3:34 PM</span>
                       <p className="text-sm">
@@ -225,7 +225,7 @@ const BlogSingle = () => {
                               alt="Monst"
                             />
                           </div>
-                          <div className="leading-relaxed flex-1 rounded-lg bg-gray-50 px-4 py-2 sm:px-6 sm:py-4">
+                          <div className="flex-1 rounded-lg bg-gray-50 px-4 py-2 leading-relaxed sm:px-6 sm:py-4">
                             <strong>Clara </strong>
                             <span className="text-xs text-gray-400">
                               3:34 PM
@@ -246,7 +246,7 @@ const BlogSingle = () => {
                               alt="Monst"
                             />
                           </div>
-                          <div className="leading-relaxed flex-1 rounded-lg bg-gray-50 px-4 py-2 sm:px-6 sm:py-4">
+                          <div className="flex-1 rounded-lg bg-gray-50 px-4 py-2 leading-relaxed sm:px-6 sm:py-4">
                             <strong>Dany </strong>
                             <span className="text-xs text-gray-400">
                               3:34 PM
@@ -273,7 +273,7 @@ const BlogSingle = () => {
                     </h2>
                     <div className="my-2 w-full md:w-full">
                       <textarea
-                        className="leading-normal h-32 w-full resize-none rounded border border-gray-100 bg-gray-100 px-3 py-4 text-sm focus:bg-white focus:outline-none"
+                        className="h-32 w-full resize-none rounded border border-gray-100 bg-gray-100 px-3 py-4 text-sm leading-normal focus:bg-white focus:outline-none"
                         name="body"
                         placeholder="Type Your Comment"
                         required
@@ -299,7 +299,7 @@ const BlogSingle = () => {
                         </p>
                       </div>
                     </div>
-                    <button className="leading-none mt-6 block rounded bg-blue-500 p-4 text-center text-xs font-semibold text-white transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-blue-700">
+                    <button className="mt-6 block rounded bg-blue-500 p-4 text-center text-xs font-semibold leading-none text-white transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-blue-700">
                       Post Comment
                     </button>
                   </div>
@@ -340,13 +340,13 @@ const BlogSingle = () => {
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                   </svg>
                   <input
-                    className="leading-none w-full bg-blue-500 py-4 pl-3 text-xs font-semibold text-white outline-none placeholder:text-white"
+                    className="w-full bg-blue-500 py-4 pl-3 text-xs font-semibold leading-none text-white outline-none placeholder:text-white"
                     type="text"
                     placeholder="Type your e-mail"
                   />
                 </div>
                 <button
-                  className="leading-none w-full rounded border border-blue-300 bg-white px-8 py-4 text-xs font-semibold text-blue-800 transition duration-300 ease-in-out hover:border-blue-300 hover:bg-blue-500 hover:text-white md:w-auto"
+                  className="w-full rounded border border-blue-300 bg-white px-8 py-4 text-xs font-semibold leading-none text-blue-800 transition duration-300 ease-in-out hover:border-blue-300 hover:bg-blue-500 hover:text-white md:w-auto"
                   type="submit"
                 >
                   Sign Up

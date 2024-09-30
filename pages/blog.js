@@ -58,7 +58,7 @@ const Blog2 = () => {
                     </a>
                   </Link>
                 </h3>
-                <p className="leading-loose mb-4 text-sm text-blueGray-400 md:text-base">
+                <p className="mb-4 text-sm leading-loose text-blueGray-400 md:text-base">
                   The rise of 5G networks create the potential for new ways of
                   working as well as benefits to the daily lives of many people
                   that they probably haven’t considered yet. We often think
@@ -93,7 +93,7 @@ const Blog2 = () => {
                     </a>
                   </Link>
                 </h3>
-                <p className="leading-loose mb-4 text-sm text-blueGray-400 md:text-base">
+                <p className="mb-4 text-sm leading-loose text-blueGray-400 md:text-base">
                   A Single Point of Failure can exist at many levels in a
                   complex system; ranging from hardware failure, loss of network
                   from a service provider or a software failure on a server.
@@ -126,7 +126,7 @@ const Blog2 = () => {
                     </a>
                   </Link>
                 </h3>
-                <p className="leading-loose mb-4 text-sm text-blueGray-400 md:text-base">
+                <p className="mb-4 text-sm leading-loose text-blueGray-400 md:text-base">
                   There are lots of different attitudes people take towards
                   technology in their businesses. Some look at technology as an
                   expense that needs to be managed. Others are ambivalent and
@@ -162,7 +162,7 @@ const Blog2 = () => {
                     </a>
                   </Link>
                 </h3>
-                <p className="leading-loose mb-4 text-sm text-blueGray-400 md:text-base">
+                <p className="mb-4 text-sm leading-loose text-blueGray-400 md:text-base">
                   In its infancy, blockchain solutions offered encryption,
                   immutability, and some form of distribution. As time went on,
                   we saw new features added including advancements in

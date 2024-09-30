@@ -38,7 +38,7 @@ const Slider1 = () => {
                                 </div>
                                 <div>
                                     <Link href="/services">
-                                        <a className="hover-up-2 leading-none mr-2 inline-block rounded border border-blue-200 px-4 py-3 text-xs font-semibold tracking-wide text-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white">View Details</a>
+                                        <a className="hover-up-2 mr-2 inline-block rounded border border-blue-200 px-4 py-3 text-xs font-semibold leading-none tracking-wide text-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white">View Details</a>
                                     </Link>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const Slider1 = () => {
                                 </div>
                                 <div>
                                     <Link href="/services">
-                                        <a className="hover-up-2 leading-none mr-2 inline-block rounded border border-blue-200 px-4 py-3 text-xs font-semibold tracking-wide text-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white">View Details</a>
+                                        <a className="hover-up-2 mr-2 inline-block rounded border border-blue-200 px-4 py-3 text-xs font-semibold leading-none tracking-wide text-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white">View Details</a>
                                     </Link>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ const Slider1 = () => {
                                 </div>
                                 <div>
                                     <Link href="/services">
-                                        <a className="hover-up-2 leading-none mr-2 inline-block rounded border border-blue-200 px-4 py-3 text-xs font-semibold tracking-wide text-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white">View Details</a>
+                                        <a className="hover-up-2 mr-2 inline-block rounded border border-blue-200 px-4 py-3 text-xs font-semibold leading-none tracking-wide text-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white">View Details</a>
                                     </Link>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@ const Slider1 = () => {
                                 </div>
                                 <div>
                                     <Link href="/services">
-                                        <a className="hover-up-2 leading-none mr-2 inline-block rounded border border-blue-200 px-4 py-3 text-xs font-semibold tracking-wide text-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white">View Details</a>
+                                        <a className="hover-up-2 mr-2 inline-block rounded border border-blue-200 px-4 py-3 text-xs font-semibold leading-none tracking-wide text-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white">View Details</a>
                                     </Link>
                                 </div>
                             </div>

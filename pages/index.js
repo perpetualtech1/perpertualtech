@@ -109,20 +109,20 @@ const Features = () => {
                         />
                       </span>
                     </p>
-                    <p className="wow animate__animated animate__fadeIn leading-relaxed mt-3 text-sm text-blueGray-400">
+                    <p className="wow animate__animated animate__fadeIn mt-3 text-sm leading-relaxed text-blueGray-400">
                       Helping you maximize operations management with
                       digitization
                     </p>
                   </div>
-                  <div className="text-center lg:text-left mb-4">
+                  <div className="mb-4 text-center lg:text-left">
                     <a
-                      className="hover-up-2 wow animate__animated animate__fadeIn leading-none mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold tracking-wide text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block"
+                      className="hover-up-2 wow animate__animated animate__fadeIn mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold leading-none tracking-wide text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block"
                       href="#key-features"
                     >
                       Key Features
                     </a>
                     <a
-                      className="hover-up-2 wow animate__animated animate__fadeIn leading-none block rounded border border-blueGray-200 bg-white px-8 py-4 text-center text-xs font-semibold text-blueGray-500 hover:border-blueGray-300 hover:text-blueGray-600 sm:inline-block"
+                      className="hover-up-2 wow animate__animated animate__fadeIn block rounded border border-blueGray-200 bg-white px-8 py-4 text-center text-xs font-semibold leading-none text-blueGray-500 hover:border-blueGray-300 hover:text-blueGray-600 sm:inline-block"
                       data-wow-delay=".3s"
                       href="#how-we-work"
                     >
@@ -131,14 +131,14 @@ const Features = () => {
                   </div>
                 </div>
               </div>
-              <div className="mb-12 w-full px-3 pb-10 pt-12 lg:mb-0 relative lg:w-1/2 lg:bg-blueGray-100 md:h-[calc(100vh-98px)]">
+              <div className="relative mb-12 w-full px-3 pb-10 pt-12 md:h-[calc(100vh-98px)] lg:mb-0 lg:w-1/2 lg:bg-blueGray-100">
                 <div className="flex items-center justify-center ">
-                  <div className="flex flex-col items-center justify-center absolute inset-0 z-10">
+                  <div className="absolute inset-0 z-10 flex flex-col items-center justify-center">
                     <h3 className="font-heading mb-4 pl-[10%] text-2xl font-bold">
                       Discover Our Latest Projects
                     </h3>
-                    <div className="flex justify-center pl-[12%] mt-12">
-                      <div className="shadow-lg max-w-[320px] hover:rotate-[2deg] hover:-translate-y-8 transition-transform bg-white  rounded-lg p-3  rotate-[1deg] z-20 hover:z-30">
+                    <div className="mt-12 flex justify-center pl-[12%]">
+                      <div className="z-20 max-w-[320px] rotate-1 rounded-lg bg-white p-3  shadow-lg transition-transform  hover:z-30 hover:-translate-y-8 hover:rotate-2">
                         <a
                           href="https://www.taxgpt.ae/"
                           target="_blank"
@@ -150,18 +150,18 @@ const Features = () => {
                             alt="TaxGPT Project"
                             width={320} // Adjust the width as needed
                             height={240} // Adjust the height as needed
-                            className="object-cover rounded-lg shadow-lg"
+                            className="rounded-lg object-cover shadow-lg"
                           />
-                          <h2 class="text-base font-semibold mb-2 text-black/80">
+                          <h2 class="mb-2 text-base font-semibold text-black/80">
                             TravelEngine
                           </h2>
-                          <p class="text-blueGray-400 text-xs ">
+                          <p class="text-xs text-blueGray-400 ">
                             Find the best places to eat with our AI-powered
                             recommendations.
                           </p>
                         </a>
                       </div>
-                      <div className="shadow-lg  max-w-[320px] hover:rotate-[2deg] hover:-translate-y-8 transition-transform bg-white  rounded-lg p-3 -ml-[22%] rotate-[-1deg] z-20 text-center">
+                      <div className="z-20  ml-[-22%] max-w-[320px] -rotate-1 rounded-lg bg-white  p-3 text-center shadow-lg transition-transform hover:-translate-y-8 hover:rotate-2">
                         <a
                           href="https://www.travelengine.ai/"
                           target="_blank"
@@ -172,12 +172,12 @@ const Features = () => {
                             alt="TravelEngine.ai Project"
                             width={320} // Adjust the width as needed
                             height={240} // Adjust the height as needed
-                            className="object-cover rounded-lg shadow-lg"
+                            className="rounded-lg object-cover shadow-lg"
                           />
-                          <h2 class="text-base font-semibold mb-2 text-black/80">
+                          <h2 class="mb-2 text-base font-semibold text-black/80">
                             TaxGPT
                           </h2>
-                          <p class="text-blueGray-400 text-xs ">
+                          <p class="text-xs text-blueGray-400 ">
                             Using AI to automate and simplify your tax reporting
                             and filing.
                           </p>
@@ -185,9 +185,9 @@ const Features = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="pt-[25%] pl-[10%]  flex items-center h-full justify-center">
+                  <div className="flex h-full  items-center justify-center pl-[10%] pt-[25%]">
                     <Image
-                      className="lg:max-w-lg opacity-15 blur-sm "
+                      className="opacity-15 blur-sm lg:max-w-lg "
                       src="/assets/imgs/illustrations/hero.svg"
                       alt="Monst"
                       width={800} // Adjust the width as needed
@@ -258,7 +258,7 @@ const Features = () => {
                   </h2>
                   <Link href="/services">
                     <a
-                      className="hover-up-2 wow animate__animated animate__fadeIn leading-none inline-block rounded bg-blue-400 px-8 py-4 text-xs font-semibold text-white hover:bg-blue-500"
+                      className="hover-up-2 wow animate__animated animate__fadeIn inline-block rounded bg-blue-400 px-8 py-4 text-xs font-semibold leading-none text-white hover:bg-blue-500"
                       data-wow-delay=".5s"
                     >
                       Learn More
@@ -426,21 +426,21 @@ const Features = () => {
                     <div className="mb-4 w-full px-3 lg:mb-0 lg:w-1/2">
                       <div className="mb-4">
                         <input
-                          className="leading-none w-full rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
+                          className="w-full rounded bg-blueGray-50 p-4 text-xs font-semibold leading-none outline-none"
                           type="text"
                           placeholder="Subject"
                         />
                       </div>
                       <div className="mb-4">
                         <input
-                          className="leading-none w-full rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
+                          className="w-full rounded bg-blueGray-50 p-4 text-xs font-semibold leading-none outline-none"
                           type="text"
                           placeholder="Name"
                         />
                       </div>
                       <div className="mb-4">
                         <input
-                          className="leading-none w-full rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
+                          className="w-full rounded bg-blueGray-50 p-4 text-xs font-semibold leading-none outline-none"
                           type="email"
                           placeholder="name@example.com"
                         />
@@ -448,7 +448,7 @@ const Features = () => {
                     </div>
                     <div className="w-full px-3 lg:w-1/2">
                       <textarea
-                        className="leading-none size-full resize-none rounded bg-blueGray-50 p-4 text-xs font-semibold outline-none"
+                        className="size-full resize-none rounded bg-blueGray-50 p-4 text-xs font-semibold leading-none outline-none"
                         placeholder="Message..."
                       ></textarea>
                     </div>
@@ -466,7 +466,7 @@ const Features = () => {
                       </span>
                     </label>
                     <button
-                      className="leading-none rounded bg-blue-400 px-8 py-4 text-sm font-semibold text-white hover:bg-blue-500"
+                      className="rounded bg-blue-400 px-8 py-4 text-sm font-semibold leading-none text-white hover:bg-blue-500"
                       type="submit"
                     >
                       Submit

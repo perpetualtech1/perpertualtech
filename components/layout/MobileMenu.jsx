@@ -28,7 +28,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
         <nav className="fixed inset-y-0 left-0 flex w-5/6 max-w-sm flex-col overflow-y-auto border-r bg-white p-6 transition duration-300">
           <div className="mb-8 flex items-center">
             <Link href="#">
-              <a className="leading-none mr-auto text-3xl font-semibold">
+              <a className="mr-auto text-3xl font-semibold leading-none">
                 <img
                   className="h-10"
                   src="/assets/imgs/logos/monst-logo.svg"
@@ -211,12 +211,12 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
             </ul>
             <div className="mt-4 border-t border-blueGray-100 pt-6">
               <Link href="/signup">
-                <a className="leading-none mb-3 block rounded bg-blue-400 px-4 py-3 text-center text-xs font-semibold text-white hover:bg-blue-500">
+                <a className="mb-3 block rounded bg-blue-400 px-4 py-3 text-center text-xs font-semibold leading-none text-white hover:bg-blue-500">
                   Sign Up
                 </a>
               </Link>
               <Link href="/login">
-                <a className="leading-none mb-2 block rounded border border-blue-200 px-4 py-3 text-center text-xs font-semibold text-blue-500 hover:border-blue-300 hover:text-blue-700">
+                <a className="mb-2 block rounded border border-blue-200 px-4 py-3 text-center text-xs font-semibold leading-none text-blue-500 hover:border-blue-300 hover:text-blue-700">
                   Log In
                 </a>
               </Link>

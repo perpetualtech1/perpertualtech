@@ -24,7 +24,7 @@ const Header = ({ handleHidden }) => {
         <div className="container bg-transparent">
           <nav className="flex items-center justify-between bg-transparent py-3">
             <Link href="/">
-              <a className="leading-none text-3xl font-semibold">
+              <a className="text-3xl font-semibold leading-none">
                 <img
                   className="h-10"
                   src="/assets/imgs/logos/perp-logo.svg"

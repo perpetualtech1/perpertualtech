@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="-mx-3 mb-12 flex flex-wrap text-center lg:mb-20 lg:text-left">
             <div className="mb-6 w-full px-3 lg:mb-0 lg:w-1/5">
               <Link href="/">
-                <a className="leading-none mx-auto inline-block text-3xl font-semibold lg:mx-0">
+                <a className="mx-auto inline-block text-3xl font-semibold leading-none lg:mx-0">
                   <img
                     className="h-10"
                     src="/assets/imgs/logos/perp-logo.svg"
@@ -22,7 +22,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className="mb-8 w-full px-3 lg:mb-0 lg:w-2/5">
-              <p className="leading-relaxed mx-auto max-w-md text-blueGray-400 lg:mx-0 lg:max-w-full lg:pr-32 lg:text-lg">
+              <p className="mx-auto max-w-md leading-relaxed text-blueGray-400 lg:mx-0 lg:max-w-full lg:pr-32 lg:text-lg">
                 Helping you <strong>maximize</strong> operations management with
                 digitization
               </p>

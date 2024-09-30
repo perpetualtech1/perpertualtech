@@ -82,7 +82,7 @@ const Services = () => {
                   </div>
 
                   <p
-                    className="wow animate__animated animate__fadeIn leading-loose mb-6 text-blueGray-400"
+                    className="wow animate__animated animate__fadeIn mb-6 leading-loose text-blueGray-400"
                     data-wow-delay=".1s"
                   >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -103,7 +103,7 @@ const Services = () => {
                         <h3 className="font-heading mb-2 text-xl font-semibold">
                           Web design UX/UI
                         </h3>
-                        <p className="leading-loose text-sm text-blueGray-400">
+                        <p className="text-sm leading-loose text-blueGray-400">
                           Effective web design guides users’ eyes and tells them
                           where to look..
                         </p>
@@ -122,7 +122,7 @@ const Services = () => {
                         <h3 className="font-heading mb-2 text-xl font-semibold">
                           React Development
                         </h3>
-                        <p className="leading-loose text-sm text-blueGray-400">
+                        <p className="text-sm leading-loose text-blueGray-400">
                           Developers save time by not having to write the same
                           code multiple times.
                         </p>
@@ -141,7 +141,7 @@ const Services = () => {
                         <h3 className="font-heading mb-2 text-xl font-semibold">
                           Ecommerce Build
                         </h3>
-                        <p className="leading-loose text-sm text-blueGray-400">
+                        <p className="text-sm leading-loose text-blueGray-400">
                           Marketing through social media is a great way to gain
                           new insights, acquire loyal customers, and get
                           creative.
@@ -161,7 +161,7 @@ const Services = () => {
                         <h3 className="font-heading mb-2 text-xl font-semibold">
                           CMS Development
                         </h3>
-                        <p className="leading-loose text-sm text-blueGray-400">
+                        <p className="text-sm leading-loose text-blueGray-400">
                           CMS allows you to quickly create a mobile-friendly web
                           application.
                         </p>
@@ -203,7 +203,7 @@ const Services = () => {
                   <h3 className="font-heading mb-2 text-xl font-bold">
                     Project Initialization
                   </h3>
-                  <p className="leading-relaxed text-sm text-blueGray-400">
+                  <p className="text-sm leading-relaxed text-blueGray-400">
                     Lay a strong foundation for your AI-driven project. Our team
                     ensures the right setup and integration of AI tools such as
                     ChatGPT to streamline your business processes.
@@ -226,7 +226,7 @@ const Services = () => {
                   <h3 className="font-heading mb-2 text-xl font-bold">
                     Project Planning
                   </h3>
-                  <p className="leading-relaxed text-sm text-blueGray-400">
+                  <p className="text-sm leading-relaxed text-blueGray-400">
                     Develop a comprehensive plan that integrates AI components,
                     ensuring your project stays organized, methodical, and on
                     track. Tools like predictive analytics and machine learning
@@ -251,7 +251,7 @@ const Services = () => {
                   <h3 className="font-heading mb-2 text-xl font-bold">
                     Project Organization
                   </h3>
-                  <p className="leading-relaxed text-sm text-blueGray-400">
+                  <p className="text-sm leading-relaxed text-blueGray-400">
                     Ensure the smooth execution of your project by utilizing AI
                     solutions to maintain organization and efficiency. ChatGPT
                     aids in real-time communication and task management, helping
