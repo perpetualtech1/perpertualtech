@@ -9,9 +9,9 @@ import aiTravelEngine from "../public/assets/imgs/icons/ai-travel-engine.svg";
 import briefCase from "../public/assets/imgs/icons/brief-case.svg";
 import machineLearning from "../public/assets/imgs/icons/machine-learning.svg";
 import piechart from "../public/assets/imgs/icons/pie-chart.svg";
-import predictAnalytics from "../public/assets/imgs/icons/predict-analytics.svg";
+import predictAnalytics from "../public/assets/imgs/icons/terminal.svg";
 import settings from "../public/assets/imgs/icons/settings.svg";
-import taxGpt from "../public/assets/imgs/icons/taxGpt.webp";
+import chatbot from "../public/assets/imgs/chatbot.svg";
 import trend from "../public/assets/imgs/icons/trend.svg";
 
 const features = [
@@ -44,10 +44,10 @@ const features = [
     delay: ".9s",
   },
   {
-    title: "TaxGPT",
+    title: "Chatbot Solutions",
     description:
-      "We build intelligent chatbots that seamlessly integrate with TaxGPT to mimic human interactions, providing 24/7 support to your customers and enhancing user engagement while simplifying tax calculations and reporting.",
-    icon: taxGpt,
+      "We build intelligent chatbots that seamlessly integrate into your existing systems to mimic human interactions, providing 24/7 support to your customers and enhancing user engagement.",
+    icon: chatbot,
     delay: ".3s",
   },
   {
@@ -64,18 +64,11 @@ const features = [
     icon: aiDataAnalysis,
     delay: ".7s",
   },
-  // {
-  //   title: "Predictive Analytics",
-  //   description:
-  //     "Our predictive analytics solutions help businesses anticipate future outcomes based on historical data using advanced machine learning models.",
-  //   icon: predictAnalytics,
-  //   delay: ".9s",
-  // },
   {
-    title: "TravelEngine AI",
+    title: "Financial Modeling AI",
     description:
-      "TravelEngine provides AI-powered bespoke travel solutions, offering fast and intelligent recommendations tailored to your taste. Find the best dining spots and get personalized travel itineraries.",
-    icon: aiTravelEngine,
+      "Our Financial Modeling AI uses advanced machine learning techniques to forecast financial outcomes, optimize investments, and simplify complex financial planning.",
+    icon: predictAnalytics,
     delay: ".9s",
   },
 ];
