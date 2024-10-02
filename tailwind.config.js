@@ -27,13 +27,23 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        "gradient-glow": `
+        0 8px 12px rgba(0, 119, 255, 0.2),  /* Larger blue shadow */
+        0 4px 6px rgba(98, 0, 238, 0.2),   /* Existing color with adjusted opacity and size */
+        0 2px 4px rgba(98, 0, 238, 0.1),   /* Additional shadow for more color depth */
+        0 1px 3px rgba(255, 255, 0, 0.2);  /* Added yellow accent for more vibrancy */
+        `,
+      },
       // fontSize: {
       //   "5xl": {
       //     fontSize: "3rem",
       //     lineHeight: "4rem",
-      //   },  
+      //   },
       // },
       colors: {
+        "gradient-from": "#6B73FF",
+        "gradient-to": "#000DFF",
         blueGray: {
           50: "#f8fafc",
           100: "#f1f5f9",

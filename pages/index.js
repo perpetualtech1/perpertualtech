@@ -84,45 +84,53 @@ const Features = () => {
   return (
     <>
       <Layout>
-        <section className="relative flex items-center ">
-          <div
-            className="absolute inset-0 z-0 ml-auto hidden w-1/2 bg-blueGray-100 lg:block"
-            style={{ zIndex: "-1" }}
-          ></div>
+        <section className=" flex items-center ">
           <div className="container">
-            <div className="-mx-3 flex flex-wrap items-center">
+            <div className=" flex flex-wrap items-center">
               <div className="w-full px-3 lg:w-1/2">
                 <div className="py-12">
                   <div className="mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left">
                     <h2 className="font-heading wow animate__animated animate__fadeIn mb-4 text-3xl font-bold lg:text-5xl">
                       Committed to <span className="text-blue-500">People</span>{" "}
-                      and the future
+                      and the Future with{" "}
+                      <span className="bg-gradient-to-r from-gradient-from to-gradient-to bg-clip-text text-transparent">
+                        AI
+                      </span>
+                      {/* <span className="text-blue-500">AI</span> */}
                     </h2>
                     <p className="wow animate__animated animate__fadeIn leading-relaxed text-blueGray-400">
                       We are{" "}
                       <strong className="text-blue-500">Perpetualtech</strong>,
-                      a Creative Design{" "}
-                      <span className="typewrite text-brand inline">
+                      a Creative Design
+                      <br />
+                      <span className="typewrite inline font-bold">
                         <TextEffect
-                          text1="Web Agency"
-                          text2="Social Marketing"
+                          texts={[
+                            "Web Agency",
+                            "Social Marketing",
+                            "AI Solutions",
+                          ]}
                         />
                       </span>
                     </p>
                     <p className="wow animate__animated animate__fadeIn mt-3 text-sm leading-relaxed text-blueGray-400">
                       Helping you maximize operations management with
-                      digitization
+                      digitization and{" "}
+                      <span className="text-blue-500">
+                        Artificial Intelligence
+                      </span>
+                      .
                     </p>
                   </div>
                   <div className="mb-4 text-center lg:text-left">
                     <a
-                      className="hover-up-2 wow animate__animated animate__fadeIn mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold leading-none tracking-wide text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block"
+                      className=" wow animate__animated animate__fadeIn mb-4 block rounded bg-blue-400 px-8 py-4 text-center text-xs font-semibold leading-none tracking-wide text-white hover:bg-blue-500 sm:mb-0 sm:mr-3 sm:inline-block"
                       href="#key-features"
                     >
                       Key Features
                     </a>
                     <a
-                      className="hover-up-2 wow animate__animated animate__fadeIn block rounded border border-blueGray-200 bg-white px-8 py-4 text-center text-xs font-semibold leading-none text-blueGray-500 hover:border-blueGray-300 hover:text-blueGray-600 sm:inline-block"
+                      className="wow animate__animated animate__fadeIn block rounded border border-blueGray-200 bg-white px-8 py-4 text-center text-xs font-semibold leading-none text-blueGray-500 hover:border-blueGray-300 hover:text-blueGray-600 sm:inline-block"
                       data-wow-delay=".3s"
                       href="#how-we-work"
                     >
@@ -131,71 +139,89 @@ const Features = () => {
                   </div>
                 </div>
               </div>
-              <div className="relative mb-12 w-full px-3 pb-10 pt-12 md:h-[calc(100vh-98px)] lg:mb-0 lg:w-1/2 lg:bg-blueGray-100">
+              <div className="relative mb-12 w-full px-3 pb-10 pt-12 md:h-[calc(80vh-98px)] lg:mb-0 lg:w-1/2 ">
                 <div className="flex items-center justify-center ">
-                  <div className="absolute inset-0 z-10 flex flex-col items-center justify-center">
-                    <h3 className="font-heading mb-4 pl-[10%] text-2xl font-bold">
-                      Discover Our Latest Projects
-                    </h3>
-                    <div className="mt-12 flex justify-center pl-[12%]">
-                      <div className="z-20 max-w-[320px] rotate-1 rounded-lg bg-white p-3  shadow-lg transition-transform  hover:z-30 hover:-translate-y-8 hover:rotate-2">
-                        <a
-                          href="https://www.taxgpt.ae/"
-                          target="_blank"
-                          className="text-center"
-                          rel="noopener noreferrer"
-                        >
-                          <Image
-                            src="/gif/travelengine.gif"
-                            alt="TaxGPT Project"
-                            width={320} // Adjust the width as needed
-                            height={240} // Adjust the height as needed
-                            className="rounded-lg object-cover shadow-lg"
-                          />
-                          <h2 class="mb-2 text-base font-semibold text-black/80">
-                            TravelEngine
-                          </h2>
-                          <p class="text-xs text-blueGray-400 ">
-                            Find the best places to eat with our AI-powered
-                            recommendations.
-                          </p>
-                        </a>
-                      </div>
-                      <div className="z-20  ml-[-22%] max-w-[320px] -rotate-1 rounded-lg bg-white  p-3 text-center shadow-lg transition-transform hover:-translate-y-8 hover:rotate-2">
-                        <a
-                          href="https://www.travelengine.ai/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Image
-                            src="/gif/taxgpt.gif"
-                            alt="TravelEngine.ai Project"
-                            width={320} // Adjust the width as needed
-                            height={240} // Adjust the height as needed
-                            className="rounded-lg object-cover shadow-lg"
-                          />
-                          <h2 class="mb-2 text-base font-semibold text-black/80">
-                            TaxGPT
-                          </h2>
-                          <p class="text-xs text-blueGray-400 ">
-                            Using AI to automate and simplify your tax reporting
-                            and filing.
-                          </p>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex h-full  items-center justify-center pl-[10%] pt-[25%]">
+                  <div className="flex h-full  items-center justify-center ">
                     <Image
-                      className="opacity-15 blur-sm lg:max-w-lg "
-                      src="/assets/imgs/illustrations/hero.svg"
-                      alt="Monst"
-                      width={800} // Adjust the width as needed
-                      height={600} // Adjust the height as needed
+                      src="/assets/imgs/illustrations/ai.webp"
+                      alt="Ai"
+                      className="rounded-lg object-contain opacity-90 shadow-lg"
+                      width={500}
+                      height={500}
                     />
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section
+          className="border-y border-blueGray-300 bg-gradient-to-tl from-white to-gradient-to/5 pb-20 pt-16"
+          id="latest-features"
+        >
+          <div className="flex flex-col items-center justify-center">
+            <h3 className="font-heading mb-2 text-center text-2xl font-bold md:mb-4">
+              Discover Our Latest{" "}
+              <span className="bg-gradient-to-r from-gradient-from to-gradient-to bg-clip-text text-transparent">
+                AI Projects
+              </span>
+            </h3>
+            <p className="mb-8 text-center text-lg text-blueGray-400">
+              Discover innovative solutions powered by Artificial Intelligence.
+            </p>
+            <div className="container mt-4 grid max-w-5xl gap-4  md:mt-8 md:grid-cols-2">
+              <a
+                href="https://www.travelengine.ai/"
+                target="_blank"
+                className="block size-full"
+                rel="noopener noreferrer"
+              >
+                <div className="flex size-full flex-col gap-4 rounded-md bg-white p-2 shadow-lg transition-all duration-500 hover:shadow-gradient-glow">
+                  <div className="relative aspect-[16/8] w-full flex-1">
+                    <Image
+                      src="/gif/travelengine.webp"
+                      alt="TravelEngine.ai Project"
+                      layout="fill"
+                      className="rounded object-cover shadow-lg"
+                    />
+                  </div>
+                  <div className="px-2 pb-2">
+                    <h2 className="mb-2 text-lg font-semibold text-black/80">
+                      TravelEngine
+                    </h2>
+                    <p className="text-sm text-blueGray-400">
+                      Find the best places to eat with our AI-powered
+                      recommendations.
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.taxgpt.ae/"
+                target="_blank"
+                className="block size-full"
+                rel="noopener noreferrer"
+              >
+                <div className="flex size-full flex-col gap-4 rounded-md border bg-white p-2 shadow-lg transition-all duration-500 hover:shadow-gradient-glow">
+                  <div className="relative aspect-[16/8] w-full flex-1">
+                    <Image
+                      alt="TaxGPT Project"
+                      src="/gif/taxgpt.webp"
+                      layout="fill"
+                      className="rounded object-cover shadow-lg"
+                    />
+                  </div>
+                  <div className="px-2 pb-2">
+                    <h2 className="mb-2 text-lg font-semibold text-black/80">
+                      TaxGPT
+                    </h2>
+                    <p className="text-sm text-blueGray-400">
+                      Using AI to automate and simplify your tax reporting and
+                      filing.
+                    </p>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </section>
