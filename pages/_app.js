@@ -1,67 +1,39 @@
-import React from "react";
-import Link from "next/link";
+import "../public/assets/css/animate.min.css";
+import "../public/assets/css/global.css";
+import "swiper/css";
 
-const Footer = () => {
+import React, { useEffect, useState } from "react";
+
+import Preloader from "../components/elements/Preloader";
+
+function MyApp({ Component, pageProps }) {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // If the page has already finished loading before this effect runs
+    // (common in production/hydration), the 'load' event never fires again,
+    // which would leave the preloader stuck on screen forever.
+    if (document.readyState === "complete") {
+      setLoading(false);
+      return;
+    }
+
+    const handleLoad = () => {
+      setLoading(false);
+    };
+
+    window.addEventListener('load', handleLoad);
+
+    // Cleanup the event listener on component unmount
+    return () => window.removeEventListener('load', handleLoad);
+  }, []);
+
   return (
     <>
-      <section className="py-20">
-        <div
-          className="wow animate__animated animate__fadeIn container mx-auto px-4"
-          data-wow-delay=".3s"
-        >
-          <div className="-mx-3 mb-12 flex flex-wrap text-center lg:mb-20 lg:text-left">
-            <div className="mb-6 w-full px-3 lg:mb-0 lg:w-1/5">
-              <Link href="/">
-                <a className="mx-auto inline-block text-3xl font-semibold leading-none lg:mx-0">
-                  <img
-                    className="h-10"
-                    src="/assets/imgs/logos/perp-logo.svg"
-                    alt="PerpectualTech"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="mb-8 w-full px-3 lg:mb-0 lg:w-2/5">
-              <p className="mx-auto max-w-md leading-relaxed text-blueGray-400 lg:mx-0 lg:max-w-full lg:pr-32 lg:text-lg">
-                Helping you <strong>maximize</strong> operations management with
-                digitization
-              </p>
-            </div>
-            <div className="mb-8 w-full px-3 lg:mb-0 lg:w-1/5"></div>
-            <div className="w-full px-3 lg:w-1/5">
-              <p className="font-heading mb-2 font-bold text-blueGray-800 lg:mb-4 lg:text-lg">
-                Contact
-              </p>
-              <p className="text-blueGray-400 lg:text-lg">
-                contact@perpectualtech.co
-              </p>
-              <p className="mt-2 text-blueGray-400 lg:text-lg">
-                1107, 392/MARSA DUBAI, JBR
-                <br />
-                Dubai, UAE
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col items-center lg:flex-row lg:justify-between">
-            <p className="text-sm text-blueGray-400">
-              &copy; 2023. All rights reserved.
-            </p>
-            {/* <div className="order-first lg:order-last -mx-2 mb-4 lg:mb-0">
-                            <a className="inline-block px-2" href="https://facebook.com">
-                                <img src="/assets/imgs/icons/facebook-blue.svg" alt="Monst" />
-                            </a>
-                            <a className="inline-block px-2" href="https://twitter.com">
-                                <img src="/assets/imgs/icons/twitter-blue.svg" alt="Monst" />
-                            </a>
-                            <a className="inline-block px-2" href="https://www.instagram.com">
-                                <img src="/assets/imgs/icons/instagram-blue.svg" alt="Monst" />
-                            </a>
-                        </div> */}
-          </div>
-        </div>
-      </section>
+        <Preloader loading={loading} />
+        <Component {...pageProps} />
     </>
   );
-};
+}
 
-export default Footer;
+export default MyApp;
