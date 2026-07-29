@@ -27,16 +27,18 @@ const Footer = () => {
                 digitization
               </p>
             </div>
-            <div className="mb-8 w-full px-3 lg:mb-0 lg:w-1/5">
-              {/* <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Office</p>
-                            <p className="lg:text-lg text-blueGray-400">359 Hidden Valley Road, NY</p> */}
-            </div>
+            <div className="mb-8 w-full px-3 lg:mb-0 lg:w-1/5"></div>
             <div className="w-full px-3 lg:w-1/5">
               <p className="font-heading mb-2 font-bold text-blueGray-800 lg:mb-4 lg:text-lg">
-                Contacts
+                Contact
               </p>
               <p className="text-blueGray-400 lg:text-lg">
                 contact@perpectualtech.co
+              </p>
+              <p className="mt-2 text-blueGray-400 lg:text-lg">
+                1107, 392/MARSA DUBAI, JBR
+                <br />
+                Dubai, UAE
               </p>
             </div>
           </div>
